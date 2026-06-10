@@ -1,0 +1,117 @@
+{{ define "main" }}
+
+<section class="hero">
+  <div class="hero-bg" style="background-image:url('{{ "img/hero-frankfurt.jpg" | relURL }}')"></div>
+  <div class="hero-scrim"></div>
+  <div class="hero-content">
+    <p class="hero-eyebrow">alma<span class="accent">:</span>s Architekten · Frankfurt am Main</p>
+    <h1 class="hero-tagline" id="hero-tagline">
+      {{ range $i, $t := .Params.heroTaglines }}
+      <span class="tagline{{ if eq $i 0 }} on{{ end }}" {{ if eq $t "فلنَبْنِ معاً" }}dir="rtl"{{ end }}>{{ $t }}</span>
+      {{ end }}
+    </h1>
+    <p class="hero-sub">{{ i18n "heroSub" }}</p>
+  </div>
+  <a class="hero-scroll" href="#welcome"><span>{{ i18n "scrollDown" }}</span><i></i></a>
+</section>
+
+<div class="ticker" aria-hidden="true">
+  <div class="ticker-track">
+    {{ range seq 4 }}
+    <span>Lasst uns gemeinsam bauen.</span><b>◆</b>
+    <span>Let's build together.</span><b>◆</b>
+    <span>Construyamos juntos.</span><b>◆</b>
+    <span dir="rtl">فلنَبْنِ معاً</span><b>◆</b>
+    {{ end }}
+  </div>
+</div>
+
+<section class="welcome split" id="welcome">
+  <div class="split-text reveal">
+    <p class="eyebrow">alma:s Architekten</p>
+    <h2>{{ .Params.welcomeTitle }}</h2>
+    <p class="lead">{{ .Params.welcomeText }}</p>
+    {{ $services := "" }}
+    {{ if eq site.Language.Lang "de" }}{{ $services = site.GetPage "/leistungen" }}{{ else }}{{ $services = site.GetPage "/services" }}{{ end }}
+    {{ with $services }}<a class="btn" href="{{ .RelPermalink }}">{{ i18n "discoverServices" }}</a>{{ end }}
+  </div>
+  <div class="split-media reveal">
+    <img src="{{ "img/office.webp" | relURL }}" alt="alma:s Architekten Studio, Frankfurt am Main" loading="lazy">
+  </div>
+</section>
+
+<section class="cards">
+  {{ range $i, $c := .Params.cards }}
+  <a class="card reveal" href="{{ $c.link | relLangURL }}" style="transition-delay:{{ mul $i 120 }}ms">
+    <div class="card-media"><img src="{{ $c.image | relURL }}" alt="{{ $c.title }}" loading="lazy"></div>
+    <div class="card-body">
+      <h3>{{ $c.title }}</h3>
+      <p>{{ $c.text }}</p>
+      <span class="card-link">{{ i18n "readMore" }} →</span>
+    </div>
+  </a>
+  {{ end }}
+</section>
+
+<section class="brand-block reveal">
+  <img src="{{ "img/diamond.png" | relURL }}" alt="" class="brand-diamond" loading="lazy">
+  <p class="brand-defs"><span>{{ i18n "brandSoul" }}</span><b>·</b><span>{{ i18n "brandDiamond" }}</span></p>
+  <h2 class="brand-line">{{ i18n "brandLine" }}</h2>
+</section>
+
+{{ $proj := first 1 (where site.RegularPages "Params.template" "project") }}
+{{ range $proj }}
+<section class="featured split alt">
+  <div class="split-media reveal">
+    <a href="{{ .RelPermalink }}"><img src="{{ .Params.cover | relURL }}" alt="{{ .Title }}" loading="lazy"></a>
+  </div>
+  <div class="split-text reveal">
+    <p class="eyebrow">{{ i18n "featuredProject" }}</p>
+    <h2>{{ .Title }} <em>– {{ index (.Params.facts) 3 "value" }}</em></h2>
+    <p class="lead">{{ i18n "w278Teaser" }}</p>
+    <ul class="facts-inline">
+      {{ range first 3 .Params.facts }}
+      <li><span>{{ .label }}</span>{{ .value }}</li>
+      {{ end }}
+    </ul>
+    <a class="btn" href="{{ .RelPermalink }}">{{ i18n "viewProject" }}</a>
+  </div>
+</section>
+{{ end }}
+
+<section class="process reveal">
+  <div class="section-head">
+    <p class="eyebrow">{{ i18n "process" }}</p>
+    <h2>{{ i18n "processTitle" }}</h2>
+  </div>
+  <ol class="process-grid">
+    {{ range $i, $s := .Params.processSteps }}
+    <li class="process-step reveal" style="transition-delay:{{ mul $i 100 }}ms">
+      <span class="step-num">{{ $s.num }}</span>
+      <h3>{{ $s.title }}</h3>
+      <p>{{ $s.text }}</p>
+    </li>
+    {{ end }}
+  </ol>
+</section>
+
+{{ partial "reels.html" . }}
+
+<section class="team-teaser reveal">
+  <div class="team-teaser-media">
+    <img src="{{ "img/partners-bw.webp" | relURL }}" alt="Adoul Jibrel, Jorge Lopez und Bobby – alma:s Architekten" loading="lazy">
+  </div>
+  <div class="team-teaser-text">
+    <p class="eyebrow">{{ i18n "theTeam" }}</p>
+    <h2>Adoul, Jorge <em>&amp;</em> Bobby</h2>
+    {{ $about := "" }}
+    {{ if eq site.Language.Lang "de" }}{{ $about = site.GetPage "/ueber-uns" }}{{ else }}{{ $about = site.GetPage "/about" }}{{ end }}
+    {{ with $about }}<a class="btn btn-ghost" href="{{ .RelPermalink }}">{{ i18n "meetUs" }}</a>{{ end }}
+  </div>
+</section>
+
+{{ partial "ig-marquee.html" . }}
+
+{{ partial "cta.html" . }}
+
+{{ end }}

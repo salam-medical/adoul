@@ -1,0 +1,22 @@
+[build]
+  command = "hugo --gc --minify --baseURL $URL"
+  publish = "public"
+
+[build.environment]
+  HUGO_VERSION = "0.160.0"
+  HUGO_ENV = "production"
+
+[[headers]]
+  for = "/fonts/*"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+[[headers]]
+  for = "/img/*"
+  [headers.values]
+    Cache-Control = "public, max-age=604800"
+
+[[headers]]
+  for = "/video/*"
+  [headers.values]
+    Cache-Control = "public, max-age=604800"

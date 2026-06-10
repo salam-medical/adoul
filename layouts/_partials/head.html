@@ -1,0 +1,18 @@
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+{{ $title := .Title }}
+{{ if .IsHome }}{{ $title = site.Title }}{{ else }}{{ $title = printf "%s – %s" .Title site.Title }}{{ end }}
+<title>{{ $title }}</title>
+<meta name="description" content="{{ with .Params.intro }}{{ . | plainify | truncate 160 }}{{ else }}{{ site.Params.description }}{{ end }}">
+<link rel="icon" href="{{ "img/favicon-32.jpg" | relURL }}">
+<link rel="apple-touch-icon" href="{{ "img/apple-touch-icon.png" | relURL }}">
+{{ range .Translations }}
+<link rel="alternate" hreflang="{{ .Language.LanguageCode }}" href="{{ .Permalink }}">
+{{ end }}
+<link rel="preload" href="{{ "fonts/Manier-Light.woff2" | relURL }}" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="{{ "fonts/Anaheim-Regular.woff2" | relURL }}" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="{{ "css/main.css" | relURL }}">
+<noscript><style>.reveal{opacity:1;transform:none}</style></noscript>
+<meta property="og:title" content="{{ $title }}">
+<meta property="og:type" content="website">
+<meta property="og:image" content="{{ "img/hero-frankfurt.jpg" | absURL }}">

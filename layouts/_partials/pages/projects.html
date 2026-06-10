@@ -1,0 +1,38 @@
+<section class="page-hero">
+  <div class="page-hero-bg" style="background-image:url('{{ .Params.banner | default "/img/skyline.jpg" | relURL }}')"></div>
+  <div class="page-hero-content">
+    <h1>{{ .Title }}</h1>
+  </div>
+</section>
+
+<section class="page-intro reveal">
+  <p class="lead">{{ .Params.intro }}</p>
+</section>
+
+<section class="projects-grid">
+  {{ range .Pages }}
+  <a class="project-card reveal" href="{{ .RelPermalink }}">
+    <div class="project-card-media"><img src="{{ .Params.cover | relURL }}" alt="{{ .Title }}" loading="lazy"></div>
+    <div class="project-card-body">
+      <h3>{{ .Title }}</h3>
+      <p>{{ .Params.subtitle }}</p>
+      <ul class="facts-inline small">
+        {{ range first 2 .Params.facts }}<li><span>{{ .label }}</span>{{ .value }}</li>{{ end }}
+      </ul>
+      <span class="card-link">{{ i18n "viewProject" }} →</span>
+    </div>
+  </a>
+  {{ end }}
+
+  {{ range $i, $s := slice "sketch-2" "sketch-4" }}
+  <div class="project-card coming reveal" style="transition-delay:{{ mul (add $i 1) 120 }}ms">
+    <div class="project-card-media"><img src="{{ printf "img/%s.jpg" $s | relURL }}" alt="" loading="lazy"></div>
+    <div class="project-card-body">
+      <h3>…</h3>
+      <p>{{ $.Params.comingSoon }}</p>
+    </div>
+  </div>
+  {{ end }}
+</section>
+
+{{ partial "cta.html" . }}

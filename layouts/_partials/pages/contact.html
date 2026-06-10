@@ -1,0 +1,73 @@
+<section class="page-hero">
+  <div class="page-hero-bg" style="background-image:url('{{ "img/building.webp" | relURL }}')"></div>
+  <div class="page-hero-content">
+    <h1>{{ .Title }}</h1>
+  </div>
+</section>
+
+<section class="page-intro reveal">
+  <p class="lead">{{ .Params.intro }}</p>
+</section>
+
+<section class="contact-grid">
+  <div class="contact-card reveal">
+    <h3>alma:s Architekten</h3>
+    <p>{{ site.Params.legalName }}<br>
+    {{ site.Params.street }}, 4. OG<br>
+    DE-{{ site.Params.city }}</p>
+    <p>
+      <a href="mailto:{{ site.Params.email }}">{{ site.Params.email }}</a><br>
+      <a href="tel:{{ site.Params.phoneHref }}">{{ site.Params.phone }}</a>
+    </p>
+    <p class="contact-social">
+      <a href="{{ site.Params.instagram }}" target="_blank" rel="noopener">Instagram</a> ·
+      <a href="{{ site.Params.linkedin }}" target="_blank" rel="noopener">LinkedIn</a> ·
+      <a href="{{ site.Params.facebook }}" target="_blank" rel="noopener">Facebook</a>
+    </p>
+    <a class="btn" href="mailto:{{ site.Params.email }}">{{ i18n "getInTouch" }}</a>
+  </div>
+  <div class="contact-map reveal">
+    <img src="{{ "img/map.jpg" | relURL }}" alt="Karte – Berliner Straße 27, Frankfurt am Main" loading="lazy" data-lightbox>
+  </div>
+</section>
+
+<section class="chapter split">
+  <div class="split-media reveal">
+    <img src="{{ "img/building.webp" | relURL }}" alt="Berliner Straße 27, Frankfurt am Main" loading="lazy">
+  </div>
+  <div class="split-text reveal">
+    <p class="eyebrow">Berliner Straße 27</p>
+    <h2>{{ .Params.officeTitle }}</h2>
+    {{ range split .Params.officeText "\n\n" }}
+    {{ if . }}<p>{{ . }}</p>{{ end }}
+    {{ end }}
+  </div>
+</section>
+
+<section class="chapter split alt">
+  <div class="split-media reveal">
+    <img src="{{ "img/otto-apel-1956.jpg" | relURL }}" alt="Architekt Otto Apel, 1956" loading="lazy">
+  </div>
+  <div class="split-text reveal">
+    <p class="eyebrow">1956</p>
+    <h2>Otto Apel</h2>
+    <div class="apel-photos">
+      <img src="{{ "img/otto-apel.jpg" | relURL }}" alt="Architekt Otto Apel" loading="lazy">
+    </div>
+  </div>
+</section>
+
+<section class="directions reveal">
+  <div class="section-head">
+    <h2>{{ .Params.directionsTitle }}</h2>
+  </div>
+  <div class="directions-grid">
+    {{ range $i, $d := .Params.directions }}
+    <div class="direction reveal" style="transition-delay:{{ mul $i 100 }}ms">
+      <h3>{{ $d.title }}</h3>
+      <p>{{ $d.text }}</p>
+    </div>
+    {{ end }}
+  </div>
+  <p class="welcome-line">{{ .Params.welcomeLine }}</p>
+</section>

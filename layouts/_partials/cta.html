@@ -1,0 +1,10 @@
+<section class="cta-band reveal">
+  <div class="cta-bg" style="background-image:url('{{ "img/skyline.jpg" | relURL }}')"></div>
+  <div class="cta-content">
+    <h2>{{ i18n "contactCtaTitle" }}</h2>
+    <p>{{ i18n "contactCta" }}</p>
+    {{ $contact := "" }}
+    {{ if eq site.Language.Lang "de" }}{{ $contact = site.GetPage "/kontakt" }}{{ else }}{{ $contact = site.GetPage "/contact" }}{{ end }}
+    {{ with $contact }}<a class="btn btn-light" href="{{ .RelPermalink }}">{{ i18n "getInTouch" }}</a>{{ end }}
+  </div>
+</section>

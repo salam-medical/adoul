@@ -1,0 +1,53 @@
+<section class="page-hero">
+  <div class="page-hero-bg" style="background-image:url('{{ .Params.banner | relURL }}')"></div>
+  <div class="page-hero-content">
+    <h1>{{ .Title }}</h1>
+  </div>
+</section>
+
+<section class="page-intro reveal">
+  <p class="lead">{{ .Params.intro }}</p>
+</section>
+
+{{ range $i, $ch := .Params.chapters }}
+<section class="chapter split {{ if modBool $i 2 }}alt{{ end }}">
+  <div class="split-media reveal">
+    <img src="{{ $ch.image | relURL }}" alt="{{ $ch.title }}" loading="lazy">
+  </div>
+  <div class="split-text reveal">
+    <p class="eyebrow">{{ $ch.label }}</p>
+    <h2>{{ $ch.title }}</h2>
+    {{ range split $ch.text "\n\n" }}
+    {{ if . }}<p>{{ . }}</p>{{ end }}
+    {{ end }}
+  </div>
+</section>
+{{ end }}
+
+<section class="team">
+  <div class="section-head reveal">
+    <p class="eyebrow">{{ i18n "theTeam" }}</p>
+    <h2>{{ i18n "meetUs" }}</h2>
+  </div>
+  <div class="team-grid">
+    {{ range $i, $m := .Params.team }}
+    <article class="team-card reveal" style="transition-delay:{{ mul $i 120 }}ms">
+      <div class="team-photo">
+        <img src="{{ $m.photo | relURL }}" alt="{{ $m.name }}" loading="lazy" class="base">
+        <img src="{{ $m.photoHover | relURL }}" alt="" loading="lazy" class="hover" aria-hidden="true">
+      </div>
+      <h3>{{ $m.name }}</h3>
+      <p class="team-role">{{ $m.role }}</p>
+      <p class="team-position">{{ $m.position }}</p>
+      <p class="team-meta">
+        {{ with $m.memberships }}<span>{{ . }}</span><br>{{ end }}
+        <span>{{ $m.languages }}</span>
+      </p>
+      <blockquote>„{{ $m.quote }}“</blockquote>
+    </article>
+    {{ end }}
+  </div>
+</section>
+
+{{ partial "ig-marquee.html" . }}
+{{ partial "cta.html" . }}

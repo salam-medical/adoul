@@ -1,0 +1,63 @@
+<section class="page-hero">
+  <div class="page-hero-bg" style="background-image:url('{{ .Params.banner | relURL }}')"></div>
+  <div class="page-hero-content">
+    <h1>{{ .Title }}</h1>
+  </div>
+</section>
+
+<section class="page-intro reveal">
+  <p class="lead">{{ .Params.intro }}</p>
+</section>
+
+<section class="services">
+  <h2 class="services-focus reveal">{{ .Params.focusTitle }}</h2>
+  <div class="services-grid">
+    {{ range $i, $s := .Params.services }}
+    <article class="service reveal" style="transition-delay:{{ mul $i 100 }}ms">
+      <span class="service-num">{{ printf "%02d" (add $i 1) }}</span>
+      <h3>{{ $s.title }}</h3>
+      <p>{{ $s.text }}</p>
+    </article>
+    {{ end }}
+  </div>
+</section>
+
+<section class="typical split">
+  <div class="split-text reveal">
+    <h2>{{ .Params.typicalTitle }}</h2>
+    <ul class="checklist">
+      {{ range .Params.typical }}<li>{{ . }}</li>{{ end }}
+    </ul>
+    <p class="note">{{ .Params.typicalNote }}</p>
+  </div>
+  <div class="split-media reveal">
+    <img src="{{ "img/desk.webp" | relURL }}" alt="alma:s Architekten – Beratung" loading="lazy">
+  </div>
+</section>
+
+<section class="brand-block reveal">
+  <img src="{{ "img/diamond.png" | relURL }}" alt="" class="brand-diamond" loading="lazy">
+  <p class="brand-defs"><span>{{ i18n "brandSoul" }}</span><b>·</b><span>{{ i18n "brandDiamond" }}</span></p>
+  <h2 class="brand-line">{{ i18n "brandLine" }}</h2>
+</section>
+
+<section class="process">
+  <div class="section-head reveal">
+    <p class="eyebrow">{{ i18n "process" }}</p>
+    <h2>{{ .Params.stepsTitle }}</h2>
+    <p class="section-sub">{{ .Params.stepsIntro }}</p>
+  </div>
+  <ol class="timeline">
+    {{ range $i, $s := .Params.steps }}
+    <li class="timeline-step reveal">
+      <span class="step-num">{{ $s.num }}</span>
+      <div>
+        <h3>{{ $s.title }}</h3>
+        <p>{{ $s.text }}</p>
+      </div>
+    </li>
+    {{ end }}
+  </ol>
+</section>
+
+{{ partial "cta.html" . }}

@@ -1,0 +1,73 @@
+baseURL = "https://almas-architekten.de/"
+title = "alma:s Architekten"
+defaultContentLanguage = "de"
+defaultContentLanguageInSubdir = false
+enableRobotsTXT = true
+disableKinds = ["taxonomy", "term"]
+
+[params]
+  firm = "alma:s Architekten"
+  legalName = "Lopez Jibrel PartGmbB"
+  street = "Berliner Straße 27"
+  city = "60311 Frankfurt am Main"
+  country = "Deutschland"
+  email = "studio@almas-architekten.de"
+  phone = "+49 (0) 1525 7869881"
+  phoneHref = "+4915257869881"
+  instagram = "https://www.instagram.com/almas.withlove/"
+  linkedin = "https://www.linkedin.com/company/almas-architekten"
+  facebook = "https://www.facebook.com/almasarchitekten"
+
+[languages]
+  [languages.de]
+    languageCode = "de-DE"
+    languageName = "DE"
+    weight = 1
+    contentDir = "content/de"
+    [languages.de.params]
+      description = "alma:s Architekten – Architekturbüro in Frankfurt am Main. Bauen im Bestand, Umbau, Sanierung, Neubau. Lasst uns gemeinsam bauen."
+    [[languages.de.menus.main]]
+      name = "Über uns"
+      pageRef = "/ueber-uns"
+      weight = 10
+    [[languages.de.menus.main]]
+      name = "Leistungen"
+      pageRef = "/leistungen"
+      weight = 20
+    [[languages.de.menus.main]]
+      name = "Projekte"
+      pageRef = "/projekte"
+      weight = 30
+    [[languages.de.menus.main]]
+      name = "Kontakt"
+      pageRef = "/kontakt"
+      weight = 40
+
+  [languages.en]
+    languageCode = "en-GB"
+    languageName = "EN"
+    weight = 2
+    contentDir = "content/en"
+    [languages.en.params]
+      description = "alma:s Architekten – architecture studio in Frankfurt am Main. Building within existing structures, conversion, renovation, new construction. Let's build together."
+    [[languages.en.menus.main]]
+      name = "About us"
+      pageRef = "/about"
+      weight = 10
+    [[languages.en.menus.main]]
+      name = "Services"
+      pageRef = "/services"
+      weight = 20
+    [[languages.en.menus.main]]
+      name = "Projects"
+      pageRef = "/projects"
+      weight = 30
+    [[languages.en.menus.main]]
+      name = "Contact"
+      pageRef = "/contact"
+      weight = 40
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true

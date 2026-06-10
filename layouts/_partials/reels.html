@@ -1,0 +1,14 @@
+<section class="reels reveal">
+  <div class="section-head">
+    <p class="eyebrow">{{ i18n "watchReel" }}</p>
+    <h2>alma:s <em>in motion</em></h2>
+  </div>
+  <div class="reels-grid">
+    {{ range $i, $v := slice "reel-1" "reel-2" "reel-3" "reel-4" }}
+    <figure class="reel">
+      <video src="{{ printf "video/%s.mp4" $v | relURL }}" poster="{{ printf "img/%s-poster.jpg" $v | relURL }}" muted loop playsinline preload="metadata"></video>
+      <figcaption>@almas.withlove</figcaption>
+    </figure>
+    {{ end }}
+  </div>
+</section>

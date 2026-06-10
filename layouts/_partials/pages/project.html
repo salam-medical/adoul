@@ -1,0 +1,43 @@
+<section class="page-hero project-hero">
+  <div class="page-hero-bg" style="background-image:url('{{ .Params.cover | relURL }}')"></div>
+  <div class="page-hero-content">
+    <h1>{{ .Title }}</h1>
+    <p class="page-hero-sub">{{ .Params.subtitle }}</p>
+  </div>
+</section>
+
+<section class="project-facts reveal">
+  <dl>
+    {{ range .Params.facts }}
+    <div><dt>{{ .label }}</dt><dd>{{ .value }}</dd></div>
+    {{ end }}
+  </dl>
+</section>
+
+<section class="project-body reveal">
+  <div class="prose">{{ .Content }}</div>
+</section>
+
+<section class="project-gallery">
+  <h2 class="reveal">{{ i18n "gallery" }}</h2>
+  <div class="gallery-grid">
+    {{ range $i, $img := .Params.gallery }}
+    <figure class="gallery-item reveal" style="transition-delay:{{ mul $i 80 }}ms">
+      <img src="{{ $img | relURL }}" alt="{{ $.Title }} – {{ add $i 1 }}" loading="lazy" data-lightbox>
+    </figure>
+    {{ end }}
+  </div>
+  {{ with .Params.plans }}
+  <h2 class="reveal">{{ i18n "plans" }}</h2>
+  <div class="gallery-grid plans">
+    {{ range $i, $img := . }}
+    <figure class="gallery-item reveal" style="transition-delay:{{ mul $i 80 }}ms">
+      <img src="{{ $img | relURL }}" alt="{{ $.Title }} – Plan {{ add $i 1 }}" loading="lazy" data-lightbox>
+    </figure>
+    {{ end }}
+  </div>
+  {{ end }}
+  <p class="back-link reveal"><a href="{{ .Parent.RelPermalink }}">← {{ i18n "backToProjects" }}</a></p>
+</section>
+
+{{ partial "cta.html" . }}

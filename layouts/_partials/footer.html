@@ -1,0 +1,39 @@
+<footer class="site-footer">
+  <div class="footer-inner">
+    <div class="footer-brand">
+      <p class="footer-wordmark">alma<span class="accent">:</span>s <em>Architekten</em></p>
+      <p class="footer-tagline">{{ i18n "tagline" }}</p>
+      <img src="{{ "img/diamond.png" | relURL }}" alt="" class="footer-diamond" loading="lazy">
+    </div>
+    <div class="footer-col">
+      <h4>{{ i18n "address" }}</h4>
+      <p>{{ site.Params.legalName }}<br>
+      {{ site.Params.street }}<br>
+      {{ site.Params.city }}<br>
+      {{ site.Params.country }}</p>
+    </div>
+    <div class="footer-col">
+      <h4>{{ i18n "contact" }}</h4>
+      <p><a href="mailto:{{ site.Params.email }}">{{ site.Params.email }}</a><br>
+      <a href="tel:{{ site.Params.phoneHref }}">{{ site.Params.phone }}</a></p>
+    </div>
+    <div class="footer-col">
+      <h4>{{ i18n "followLabel" }}</h4>
+      <p>
+        <a href="{{ site.Params.instagram }}" target="_blank" rel="noopener">Instagram</a><br>
+        <a href="{{ site.Params.linkedin }}" target="_blank" rel="noopener">LinkedIn</a><br>
+        <a href="{{ site.Params.facebook }}" target="_blank" rel="noopener">Facebook</a>
+      </p>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <p>{{ i18n "copyright" }} {{ now.Year }} · {{ i18n "noCookies" }}</p>
+    <p>
+      {{ with site.GetPage "/impressum" }}<a href="{{ .RelPermalink }}">{{ .Title }}</a>{{ end }}
+      {{ with site.GetPage "/imprint" }}<a href="{{ .RelPermalink }}">{{ .Title }}</a>{{ end }}
+      ·
+      {{ with site.GetPage "/datenschutz" }}<a href="{{ .RelPermalink }}">{{ .Title }}</a>{{ end }}
+      {{ with site.GetPage "/privacy" }}<a href="{{ .RelPermalink }}">{{ .Title }}</a>{{ end }}
+    </p>
+  </div>
+</footer>

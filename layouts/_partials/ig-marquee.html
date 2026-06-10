@@ -1,0 +1,20 @@
+<section class="ig-section reveal">
+  <div class="section-head">
+    <p class="eyebrow">{{ i18n "studioLife" }}</p>
+    <h2>@almas.withlove</h2>
+    <p class="section-sub">{{ i18n "studioLifeText" }}</p>
+  </div>
+  <div class="marquee" aria-hidden="false">
+    {{ $imgs := slice "DXGXyaLDaSR_01" "DRep3YjCNq3_02" "DXEyHEaCofl_01" "DP3vukhiaaF_01" "DRep3YjCNq3_05" "DUId4_SiLdg_01" "DPyGaW3iLEh_01" "DYzhbMYiKxp_01" "DXJ6atgjttv_01" "DRep3YjCNq3_01" "DYo5Zh4CKuu_01" "DVqFECrCBCo_01" }}
+    <div class="marquee-track">
+      {{ range seq 2 }}
+      {{ range $imgs }}
+      <a class="marquee-item" href="{{ site.Params.instagram }}" target="_blank" rel="noopener">
+        <img src="{{ printf "img/ig/%s.jpg" . | relURL }}" alt="alma:s Architekten – Instagram" loading="lazy">
+      </a>
+      {{ end }}
+      {{ end }}
+    </div>
+  </div>
+  <p class="ig-follow"><a class="btn btn-ghost" href="{{ site.Params.instagram }}" target="_blank" rel="noopener">{{ i18n "followUs" }} ↗</a></p>
+</section>

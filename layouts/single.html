@@ -1,0 +1,4 @@
+{{ define "main" }}
+{{ $tpl := .Params.template | default "prose" }}
+{{ partial (printf "pages/%s.html" $tpl) . }}
+{{ end }}
