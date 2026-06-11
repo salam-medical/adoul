@@ -73,3 +73,52 @@ disableKinds = ["taxonomy", "term"]
   [markup.goldmark]
     [markup.goldmark.renderer]
       unsafe = true
+
+  [languages.es]
+    languageCode = "es-ES"
+    languageName = "ES"
+    weight = 3
+    contentDir = "content/es"
+    [languages.es.params]
+      description = "alma:s Architekten – estudio de arquitectura en Fráncfort del Meno. Construcción en edificios existentes, reformas, rehabilitación y obra nueva. Construyamos juntos."
+    [[languages.es.menus.main]]
+      name = "Sobre nosotros"
+      pageRef = "/sobre-nosotros"
+      weight = 10
+    [[languages.es.menus.main]]
+      name = "Servicios"
+      pageRef = "/servicios"
+      weight = 20
+    [[languages.es.menus.main]]
+      name = "Proyectos"
+      pageRef = "/proyectos"
+      weight = 30
+    [[languages.es.menus.main]]
+      name = "Contacto"
+      pageRef = "/contacto"
+      weight = 40
+
+  [languages.ar]
+    languageCode = "ar"
+    languageName = "AR"
+    languageDirection = "rtl"
+    weight = 4
+    contentDir = "content/ar"
+    [languages.ar.params]
+      description = "alma:s Architekten – مكتب معماري في فرانكفورت، ألمانيا. البناء ضمن المباني القائمة، تحويل، ترميم وبناء جديد. فلنَبْنِ معاً."
+    [[languages.ar.menus.main]]
+      name = "من نحن"
+      pageRef = "/about"
+      weight = 10
+    [[languages.ar.menus.main]]
+      name = "خدماتنا"
+      pageRef = "/services"
+      weight = 20
+    [[languages.ar.menus.main]]
+      name = "مشاريعنا"
+      pageRef = "/projects"
+      weight = 30
+    [[languages.ar.menus.main]]
+      name = "اتصلوا بنا"
+      pageRef = "/contact"
+      weight = 40

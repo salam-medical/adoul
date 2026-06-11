@@ -7,7 +7,7 @@
     <p class="hero-eyebrow">alma<span class="accent">:</span>s Architekten · Frankfurt am Main</p>
     <h1 class="hero-tagline" id="hero-tagline">
       {{ range $i, $t := .Params.heroTaglines }}
-      <span class="tagline{{ if eq $i 0 }} on{{ end }}" {{ if eq $t "فلنَبْنِ معاً" }}dir="rtl"{{ end }}>{{ $t }}</span>
+      <span class="tagline{{ if eq $i 0 }} on{{ end }}" {{ if eq $t "فلنَبْنِ معاً" }}dir="rtl"{{ else }}dir="ltr"{{ end }}>{{ $t }}</span>
       {{ end }}
     </h1>
     <p class="hero-sub">{{ i18n "heroSub" }}</p>
@@ -31,9 +31,7 @@
     <p class="eyebrow">alma:s Architekten</p>
     <h2>{{ .Params.welcomeTitle }}</h2>
     <p class="lead">{{ .Params.welcomeText }}</p>
-    {{ $services := "" }}
-    {{ if eq site.Language.Lang "de" }}{{ $services = site.GetPage "/leistungen" }}{{ else }}{{ $services = site.GetPage "/services" }}{{ end }}
-    {{ with $services }}<a class="btn" href="{{ .RelPermalink }}">{{ i18n "discoverServices" }}</a>{{ end }}
+    {{ with index (where site.RegularPages "Params.translationKey" "services") 0 }}<a class="btn" href="{{ .RelPermalink }}">{{ i18n "discoverServices" }}</a>{{ end }}
   </div>
   <div class="split-media reveal">
     <img src="{{ "img/office.webp" | relURL }}" alt="alma:s Architekten Studio, Frankfurt am Main" loading="lazy">
@@ -47,7 +45,7 @@
     <div class="card-body">
       <h3>{{ $c.title }}</h3>
       <p>{{ $c.text }}</p>
-      <span class="card-link">{{ i18n "readMore" }} →</span>
+      <span class="card-link">{{ i18n "readMore" }}</span>
     </div>
   </a>
   {{ end }}
@@ -104,9 +102,7 @@
   <div class="team-teaser-text">
     <p class="eyebrow">{{ i18n "theTeam" }}</p>
     <h2>Adoul, Jorge <em>&amp;</em> Bobby</h2>
-    {{ $about := "" }}
-    {{ if eq site.Language.Lang "de" }}{{ $about = site.GetPage "/ueber-uns" }}{{ else }}{{ $about = site.GetPage "/about" }}{{ end }}
-    {{ with $about }}<a class="btn btn-ghost" href="{{ .RelPermalink }}">{{ i18n "meetUs" }}</a>{{ end }}
+    {{ with index (where site.RegularPages "Params.translationKey" "about") 0 }}<a class="btn btn-ghost" href="{{ .RelPermalink }}">{{ i18n "meetUs" }}</a>{{ end }}
   </div>
 </section>
 

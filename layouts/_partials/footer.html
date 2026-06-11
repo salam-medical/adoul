@@ -29,11 +29,9 @@
   <div class="footer-bottom">
     <p>{{ i18n "copyright" }} {{ now.Year }} · {{ i18n "noCookies" }}</p>
     <p>
-      {{ with site.GetPage "/impressum" }}<a href="{{ .RelPermalink }}">{{ .Title }}</a>{{ end }}
-      {{ with site.GetPage "/imprint" }}<a href="{{ .RelPermalink }}">{{ .Title }}</a>{{ end }}
+      {{ with index (where site.RegularPages "Params.translationKey" "imprint") 0 }}<a href="{{ .RelPermalink }}">{{ .Title }}</a>{{ end }}
       ·
-      {{ with site.GetPage "/datenschutz" }}<a href="{{ .RelPermalink }}">{{ .Title }}</a>{{ end }}
-      {{ with site.GetPage "/privacy" }}<a href="{{ .RelPermalink }}">{{ .Title }}</a>{{ end }}
+      {{ with index (where site.RegularPages "Params.translationKey" "privacy") 0 }}<a href="{{ .RelPermalink }}">{{ .Title }}</a>{{ end }}
     </p>
   </div>
 </footer>
