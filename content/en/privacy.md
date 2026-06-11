@@ -1,6 +1,7 @@
 ---
 title: "Privacy Policy"
 translationKey: privacy
+description: "Privacy policy of alma:s Architekten, Frankfurt am Main. This website uses no cookies and no trackers."
 template: legal
 url: /en/privacy/
 ---

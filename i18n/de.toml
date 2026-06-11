@@ -120,3 +120,12 @@ other = "Wohnungsumbau einer Wohnung aus den 1970er Jahren – Küche, Essbereic
 
 [copyright]
 other = "© alma:s Architekten"
+
+[notFoundTitle]
+other = "Seite nicht gefunden"
+
+[notFoundText]
+other = "Die gesuchte Seite existiert nicht oder wurde verschoben."
+
+[backHome]
+other = "Zur Startseite"

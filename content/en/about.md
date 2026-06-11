@@ -1,4 +1,5 @@
 ---
+description: "alma:s Architekten is an architecture studio in Frankfurt am Main focused on building within existing structures. Meet the team behind alma:s."
 title: "About us"
 translationKey: about
 template: about

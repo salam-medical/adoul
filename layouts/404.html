@@ -1,0 +1,8 @@
+{{ define "main" }}
+<section class="prose-page" style="min-height:50vh;display:flex;flex-direction:column;justify-content:center;align-items:flex-start">
+  <p class="eyebrow">404</p>
+  <h1>{{ i18n "notFoundTitle" }}</h1>
+  <p class="lead">{{ i18n "notFoundText" }}</p>
+  <a class="btn" href="{{ site.Home.RelPermalink }}">{{ i18n "backHome" }}</a>
+</section>
+{{ end }}

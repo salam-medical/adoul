@@ -1,5 +1,6 @@
 ---
-title: "alma:s Architekten – Lasst uns gemeinsam bauen."
+title: "alma:s Architekten – Architekturbüro in Frankfurt am Main"
+description: "Architekturbüro in Frankfurt am Main: Bauen im Bestand, Umbau, Sanierung und Neubau. Von der ersten Idee bis zur schlüsselfertigen Übergabe."
 translationKey: home
 heroTaglines:
   - "Lasst uns gemeinsam bauen."

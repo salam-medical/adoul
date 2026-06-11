@@ -1,5 +1,6 @@
 ---
-title: "alma:s Architekten – Let's build together."
+title: "alma:s Architekten – Architecture Studio in Frankfurt am Main"
+description: "Architecture studio in Frankfurt am Main: building within existing structures, conversion, renovation and new construction."
 translationKey: home
 heroTaglines:
   - "Let's build together."

@@ -120,3 +120,12 @@ other = "Conversion of a 1970s apartment – kitchen, dining and living area wer
 
 [copyright]
 other = "© alma:s Architekten"
+
+[notFoundTitle]
+other = "Page not found"
+
+[notFoundText]
+other = "The page you are looking for does not exist or has been moved."
+
+[backHome]
+other = "Back to the homepage"

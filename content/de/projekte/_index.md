@@ -1,4 +1,5 @@
 ---
+description: "Projekte von alma:s Architekten, Frankfurt am Main: Umbau, Sanierung und Neubau – ausgewählte Arbeiten und aktuelle Bauvorhaben im Überblick."
 title: "Projekte"
 translationKey: projects
 banner: "/img/skyline.jpg"

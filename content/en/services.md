@@ -1,4 +1,5 @@
 ---
+description: "Services by alma:s Architekten, Frankfurt: consultation, design, permits and site supervision – all work stages through to turnkey handover."
 title: "Services"
 translationKey: services
 template: services

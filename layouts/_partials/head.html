@@ -1,18 +1,76 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-{{ $title := .Title }}
-{{ if .IsHome }}{{ $title = site.Title }}{{ else }}{{ $title = printf "%s – %s" .Title site.Title }}{{ end }}
+{{- $title := printf "%s – %s" .Title site.Title }}
+{{- if .IsHome }}{{ $title = or .Title site.Title }}{{ end }}
+{{- $desc := or .Description .Params.intro site.Params.description | plainify | truncate 160 }}
+{{- $ogImage := or .Params.cover "/img/hero-frankfurt.jpg" | absURL }}
 <title>{{ $title }}</title>
-<meta name="description" content="{{ with .Params.intro }}{{ . | plainify | truncate 160 }}{{ else }}{{ site.Params.description }}{{ end }}">
+<meta name="description" content="{{ $desc }}">
+{{- if eq .Kind "404" }}
+<meta name="robots" content="noindex">
+{{- end }}
+<link rel="canonical" href="{{ .Permalink }}">
+{{- range .AllTranslations }}
+<link rel="alternate" hreflang="{{ .Language.LanguageCode }}" href="{{ .Permalink }}">
+{{- end }}
+{{- with index (where .AllTranslations "Language.Lang" "de") 0 }}
+<link rel="alternate" hreflang="x-default" href="{{ .Permalink }}">
+{{- end }}
+<meta name="theme-color" content="#1e1d1b">
 <link rel="icon" href="{{ "img/favicon-32.jpg" | relURL }}">
 <link rel="apple-touch-icon" href="{{ "img/apple-touch-icon.png" | relURL }}">
-{{ range .Translations }}
-<link rel="alternate" hreflang="{{ .Language.LanguageCode }}" href="{{ .Permalink }}">
-{{ end }}
 <link rel="preload" href="{{ "fonts/Manier-Light.woff2" | relURL }}" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="{{ "fonts/Anaheim-Regular.woff2" | relURL }}" as="font" type="font/woff2" crossorigin>
+{{- if .IsHome }}
+<link rel="preload" href="{{ "img/hero-frankfurt.jpg" | relURL }}" as="image" fetchpriority="high">
+{{- end }}
 <link rel="stylesheet" href="{{ "css/main.css" | relURL }}">
 <noscript><style>.reveal{opacity:1;transform:none}</style></noscript>
+<meta property="og:site_name" content="{{ site.Title }}">
 <meta property="og:title" content="{{ $title }}">
+<meta property="og:description" content="{{ $desc }}">
 <meta property="og:type" content="website">
-<meta property="og:image" content="{{ "img/hero-frankfurt.jpg" | absURL }}">
+<meta property="og:url" content="{{ .Permalink }}">
+<meta property="og:locale" content="{{ replace site.Language.LanguageCode "-" "_" }}">
+{{- range .AllTranslations }}{{ if ne .Language.Lang $.Language.Lang }}
+<meta property="og:locale:alternate" content="{{ replace .Language.LanguageCode "-" "_" }}">
+{{- end }}{{ end }}
+<meta property="og:image" content="{{ $ogImage }}">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="{{ $title }}">
+<meta name="twitter:description" content="{{ $desc }}">
+<meta name="twitter:image" content="{{ $ogImage }}">
+{{- if .IsHome }}
+{{- $schema := dict
+  "@context" "https://schema.org"
+  "@type" "ProfessionalService"
+  "@id" (printf "%s#business" site.Home.Permalink)
+  "name" site.Params.firm
+  "legalName" site.Params.legalName
+  "description" site.Params.description
+  "url" site.Home.Permalink
+  "logo" ("img/logo.png" | absURL)
+  "image" ("img/hero-frankfurt.jpg" | absURL)
+  "telephone" site.Params.phoneHref
+  "email" site.Params.email
+  "address" (dict
+    "@type" "PostalAddress"
+    "streetAddress" site.Params.street
+    "postalCode" site.Params.postalCode
+    "addressLocality" site.Params.locality
+    "addressCountry" "DE")
+  "areaServed" (dict "@type" "City" "name" "Frankfurt am Main")
+  "knowsAbout" (slice "Architektur" "Bauen im Bestand" "Umbau" "Sanierung" "Neubau")
+  "sameAs" (slice site.Params.instagram site.Params.linkedin site.Params.facebook)
+}}
+<script type="application/ld+json">{{ $schema | jsonify | safeJS }}</script>
+{{- end }}
+{{- if and (not .IsHome) (eq .Params.template "project") }}
+{{- $crumbs := slice
+  (dict "@type" "ListItem" "position" 1 "name" site.Title "item" site.Home.Permalink)
+  (dict "@type" "ListItem" "position" 2 "name" .Parent.Title "item" .Parent.Permalink)
+  (dict "@type" "ListItem" "position" 3 "name" .Title "item" .Permalink)
+}}
+{{- $breadcrumb := dict "@context" "https://schema.org" "@type" "BreadcrumbList" "itemListElement" $crumbs }}
+<script type="application/ld+json">{{ $breadcrumb | jsonify | safeJS }}</script>
+{{- end }}

@@ -1,6 +1,7 @@
 ---
 title: "Impressum"
 translationKey: imprint
+description: "Impressum von alma:s Architekten (Lopez Jibrel PartGmbB), Architekturbüro in Frankfurt am Main – Anbieterkennzeichnung und rechtliche Hinweise."
 template: legal
 url: /impressum/
 ---

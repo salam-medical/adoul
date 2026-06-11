@@ -1,6 +1,7 @@
 ---
 title: "Imprint"
 translationKey: imprint
+description: "Imprint of alma:s Architekten (Lopez Jibrel PartGmbB), architecture studio in Frankfurt am Main – provider identification and legal notices."
 template: legal
 url: /en/imprint/
 ---

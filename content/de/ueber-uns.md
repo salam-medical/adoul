@@ -1,4 +1,5 @@
 ---
+description: "alma:s Architekten ist ein Architekturbüro in Frankfurt am Main mit Schwerpunkt Bauen im Bestand. Lernen Sie das Team hinter alma:s kennen."
 title: "Über uns"
 translationKey: about
 template: about
