@@ -1,7 +1,7 @@
 ---
 title: "Política de privacidad"
 translationKey: privacy
-description: "Política de privacidad de alma:s Architekten, Fráncfort del Meno. Este sitio web no utiliza cookies ni rastreadores."
+description: "Política de privacidad de alma:s Architekten, Fráncfort del Meno. Información sobre cookies y la gestión del consentimiento en este sitio web."
 template: legal
 url: /es/privacidad/
 ---

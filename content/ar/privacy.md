@@ -1,7 +1,7 @@
 ---
 title: "سياسة الخصوصية"
 translationKey: privacy
-description: "سياسة الخصوصية لمكتب alma:s Architekten، فرانكفورت. هذا الموقع لا يستخدم ملفات تعريف الارتباط ولا أدوات التتبع."
+description: "سياسة الخصوصية لمكتب alma:s Architekten، فرانكفورت. معلومات حول ملفات تعريف الارتباط وإدارة الموافقة على هذا الموقع."
 template: legal
 url: /ar/privacy/
 ---

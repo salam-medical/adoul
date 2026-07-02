@@ -1,0 +1,42 @@
+<div class="cookie-banner" id="cookie-banner" hidden role="dialog" aria-labelledby="cookie-banner-title" aria-describedby="cookie-banner-text">
+  <div class="cookie-banner-inner">
+    <div class="cookie-banner-body">
+      <h2 id="cookie-banner-title">{{ i18n "cookieBannerTitle" }}</h2>
+      <p id="cookie-banner-text">
+        {{ i18n "cookieBannerText" }}
+        {{- with index (where site.RegularPages "Params.translationKey" "privacy") 0 }}
+        <a href="{{ .RelPermalink }}">{{ i18n "cookiePrivacyLink" }}</a>.
+        {{- end }}
+      </p>
+      <div class="cookie-panel" id="cookie-panel" hidden>
+        <div class="cookie-category">
+          <div class="cookie-category-head">
+            <span>{{ i18n "cookieNecessaryTitle" }}</span>
+            <span class="cookie-switch is-locked">
+              <input type="checkbox" checked disabled aria-label="{{ i18n "cookieNecessaryTitle" }}">
+              <span class="cookie-switch-track" aria-hidden="true"></span>
+              <span class="cookie-switch-label">{{ i18n "cookieAlwaysOn" }}</span>
+            </span>
+          </div>
+          <p>{{ i18n "cookieNecessaryDesc" }}</p>
+        </div>
+        <div class="cookie-category">
+          <div class="cookie-category-head">
+            <span>{{ i18n "cookieAnalyticsTitle" }}</span>
+            <span class="cookie-switch">
+              <input type="checkbox" id="cookie-analytics-toggle" aria-label="{{ i18n "cookieAnalyticsTitle" }}">
+              <span class="cookie-switch-track" aria-hidden="true"></span>
+            </span>
+          </div>
+          <p>{{ i18n "cookieAnalyticsDesc" }}</p>
+        </div>
+      </div>
+    </div>
+    <div class="cookie-banner-actions">
+      <button type="button" class="btn btn-ghost cookie-btn-customize" data-cookie-customize>{{ i18n "cookieCustomize" }}</button>
+      <button type="button" class="btn btn-light" data-cookie-reject>{{ i18n "cookieRejectAll" }}</button>
+      <button type="button" class="btn cookie-btn-save" data-cookie-save hidden>{{ i18n "cookieSaveSettings" }}</button>
+      <button type="button" class="btn" data-cookie-accept>{{ i18n "cookieAcceptAll" }}</button>
+    </div>
+  </div>
+</div>

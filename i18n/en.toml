@@ -112,8 +112,44 @@ other = "Recognising the soul of a building – and letting it shine again: that
 [watchReel]
 other = "Moving images"
 
-[noCookies]
-other = "This website uses no cookies and no trackers."
+[cookieBannerTitle]
+other = "Cookie settings"
+
+[cookieBannerText]
+other = "We use cookies to make our website user-friendly and to keep improving it. Technically necessary cookies are required to operate the site; all other categories are only used with your consent. See our"
+
+[cookieAcceptAll]
+other = "Accept all"
+
+[cookieRejectAll]
+other = "Necessary only"
+
+[cookieCustomize]
+other = "Settings"
+
+[cookieSaveSettings]
+other = "Save choices"
+
+[cookieNecessaryTitle]
+other = "Necessary"
+
+[cookieNecessaryDesc]
+other = "Required for the site's core functions, e.g. to remember your cookie choice. Cannot be disabled."
+
+[cookieAnalyticsTitle]
+other = "Statistics"
+
+[cookieAnalyticsDesc]
+other = "Helps us understand how visitors use the site, e.g. via Google Analytics. Only activated with your consent."
+
+[cookieAlwaysOn]
+other = "Always active"
+
+[cookieSettingsLink]
+other = "Cookie settings"
+
+[cookiePrivacyLink]
+other = "privacy policy"
 
 [w278Teaser]
 other = "Conversion of a 1970s apartment – kitchen, dining and living area were merged into one open, flowing living space."

@@ -112,8 +112,44 @@ other = "Reconocer el alma de un edificio y hacerlo brillar de nuevo: eso es alm
 [watchReel]
 other = "Imágenes en movimiento"
 
-[noCookies]
-other = "Este sitio web no utiliza cookies ni rastreadores."
+[cookieBannerTitle]
+other = "Configuración de cookies"
+
+[cookieBannerText]
+other = "Utilizamos cookies para que nuestro sitio web sea fácil de usar y para mejorarlo continuamente. Las cookies técnicamente necesarias son imprescindibles para el funcionamiento del sitio; el resto de categorías solo se activan con su consentimiento. Encontrará más información en nuestra"
+
+[cookieAcceptAll]
+other = "Aceptar todas"
+
+[cookieRejectAll]
+other = "Solo necesarias"
+
+[cookieCustomize]
+other = "Configuración"
+
+[cookieSaveSettings]
+other = "Guardar selección"
+
+[cookieNecessaryTitle]
+other = "Necesarias"
+
+[cookieNecessaryDesc]
+other = "Imprescindibles para las funciones básicas del sitio, p. ej. para recordar su configuración de cookies. No se pueden desactivar."
+
+[cookieAnalyticsTitle]
+other = "Estadística"
+
+[cookieAnalyticsDesc]
+other = "Nos ayuda a entender cómo interactúan los visitantes con el sitio, p. ej. mediante Google Analytics. Solo se activa con su consentimiento."
+
+[cookieAlwaysOn]
+other = "Siempre activas"
+
+[cookieSettingsLink]
+other = "Configuración de cookies"
+
+[cookiePrivacyLink]
+other = "política de privacidad"
 
 [w278Teaser]
 other = "Reforma de un piso de los años setenta: la cocina, el comedor y el salón se unieron en un espacio abierto y fluido."

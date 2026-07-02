@@ -1,7 +1,7 @@
 ---
 title: "Datenschutzerklärung"
 translationKey: privacy
-description: "Datenschutzerklärung von alma:s Architekten, Frankfurt am Main. Diese Website verwendet keine Cookies und keine Tracker."
+description: "Datenschutzerklärung von alma:s Architekten, Frankfurt am Main. Informationen zu Cookies und deren Einwilligungsverwaltung auf dieser Website."
 template: legal
 url: /datenschutzerklaerung/
 ---

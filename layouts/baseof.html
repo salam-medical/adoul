@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="{{ site.Language.LanguageCode }}" dir="{{ or site.Language.LanguageDirection "ltr" }}">
+<html lang="{{ site.Language.LanguageCode }}" dir="{{ or site.Language.LanguageDirection "ltr" }}"{{ with site.Params.gaId }} data-ga-id="{{ . }}"{{ end }}>
 <head>
   {{ partial "head.html" . }}
 </head>
@@ -9,10 +9,12 @@
     {{ block "main" . }}{{ end }}
   </main>
   {{ partial "footer.html" . }}
+  {{ partial "cookie-consent.html" . }}
   <div class="lightbox" id="lightbox" aria-hidden="true">
     <button class="lightbox-close" aria-label="Close">&times;</button>
     <img src="" alt="">
   </div>
   <script src="{{ "js/main.js" | relURL }}" defer></script>
+  <script src="{{ "js/consent.js" | relURL }}" defer></script>
 </body>
 </html>

@@ -27,7 +27,7 @@
     </div>
   </div>
   <div class="footer-bottom">
-    <p>{{ i18n "copyright" }} {{ now.Year }} · {{ i18n "noCookies" }}</p>
+    <p>{{ i18n "copyright" }} {{ now.Year }} · <button type="button" class="footer-cookie-link" data-cookie-reopen>{{ i18n "cookieSettingsLink" }}</button></p>
     <p>
       {{ with index (where site.RegularPages "Params.translationKey" "imprint") 0 }}<a href="{{ .RelPermalink }}">{{ .Title }}</a>{{ end }}
       ·

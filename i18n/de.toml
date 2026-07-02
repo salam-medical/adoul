@@ -112,8 +112,44 @@ other = "Die Seele eines Gebäudes erkennen – und es in neuem Glanz erstrahlen
 [watchReel]
 other = "Einblicke in Bewegtbild"
 
-[noCookies]
-other = "Diese Website verwendet keine Cookies und keine Tracker."
+[cookieBannerTitle]
+other = "Cookie-Einstellungen"
+
+[cookieBannerText]
+other = "Wir verwenden Cookies, um unsere Website nutzerfreundlich zu gestalten und stetig zu verbessern. Technisch notwendige Cookies sind für den Betrieb der Seite erforderlich; alle anderen Kategorien setzen wir nur mit Ihrer Einwilligung ein. Weitere Informationen finden Sie in unserer"
+
+[cookieAcceptAll]
+other = "Alle akzeptieren"
+
+[cookieRejectAll]
+other = "Nur notwendige"
+
+[cookieCustomize]
+other = "Einstellungen"
+
+[cookieSaveSettings]
+other = "Auswahl speichern"
+
+[cookieNecessaryTitle]
+other = "Notwendig"
+
+[cookieNecessaryDesc]
+other = "Erforderlich für die Grundfunktionen der Website, z. B. zur Speicherung Ihrer Cookie-Einstellungen. Kann nicht deaktiviert werden."
+
+[cookieAnalyticsTitle]
+other = "Statistik"
+
+[cookieAnalyticsDesc]
+other = "Hilft uns zu verstehen, wie Besucher mit der Website interagieren, z. B. über Google Analytics. Wird nur mit Ihrer Zustimmung aktiviert."
+
+[cookieAlwaysOn]
+other = "Immer aktiv"
+
+[cookieSettingsLink]
+other = "Cookie-Einstellungen"
+
+[cookiePrivacyLink]
+other = "Datenschutzerklärung"
 
 [w278Teaser]
 other = "Wohnungsumbau einer Wohnung aus den 1970er Jahren – Küche, Essbereich und Wohnzimmer wurden zu einem offenen, fließenden Wohnraum zusammengeführt."
