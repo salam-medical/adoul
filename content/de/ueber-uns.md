@@ -5,12 +5,12 @@ translationKey: about
 template: about
 url: /ueber-uns/
 banner: "/img/studio-couch.jpg"
-intro: >
-  alma:s Architekten ist ein Architekturbüro in Frankfurt am Main mit Schwerpunkt
-  auf Bauen im Bestand. Wir begleiten Umbauten, Sanierungen, Erweiterungen und
-  Innenausbauprojekte für private Bauherr:innen und Unternehmen im
-  Rhein-Main-Gebiet. Unser Ziel ist es, bestehende Gebäude weiterzuentwickeln und
-  Räume zu schaffen, die funktional, nachhaltig und architektonisch überzeugend sind.
+intro: |
+  **alma:s Architekten ist ein Architekturbüro in Frankfurt am Main mit Schwerpunkt auf Bauen im Bestand.**
+
+  Wir begleiten Umbauten, Sanierungen, Erweiterungen und Innenausbauprojekte für private Bauherr:innen und Unternehmen im Rhein-Main-Gebiet.
+
+  Unser Ziel ist es, bestehende Gebäude weiterzuentwickeln und Räume zu schaffen, die funktional, nachhaltig und architektonisch überzeugend sind.
 chapters:
   - label: "alma:s Geschichte"
     title: "Eine gemeinsame Leidenschaft"
@@ -60,8 +60,7 @@ team:
     role: "Freier Hund · Master of Animal"
     position: "Chief Emotional Officer (CEO)"
     memberships: ""
-    languages: "Bellisch, Barkish, Französisch"
     photo: "/img/team/bobby-1.jpg"
     photoHover: "/img/team/bobby-2.jpg"
-    quote: "Wuff wuff."
+    quote: "Wau, Wau."
 ---

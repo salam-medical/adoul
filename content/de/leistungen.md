@@ -5,11 +5,12 @@ translationKey: services
 template: services
 url: /leistungen/
 banner: "/img/consultation.jpg"
-intro: >
-  Ein Projekt mit uns beginnt immer mit einem persönlichen Gespräch: Wir hören
-  genau zu, analysieren die Ausgangssituation und erarbeiten gemeinsam mit Ihnen
-  die passenden Lösungen. Auf dieser Basis entwickeln wir Entwürfe, kümmern uns
-  um die erforderlichen Pläne und begleiten die Umsetzung bis zum fertigen Gebäude.
+intro: |
+  **Wir begleiten private Bauherr:innen und Investoren bei Projekten im Bestand wie bei Neubauten - von der ersten Idee bis zur Umsetzung.**
+
+  Jedes Projekt beginnt mit einer anderen Ausgangssitution. Manche möchten ein Haus umbauen, andere zusätzlichen Wohnraum schaffen, eine Immobilie weiterentwickeln oder Geschäftsräume neu gestalten.
+
+  Unsere Leistungen reichen von der Potenzialanalyse über Planung und Genehmigung bis zur Umsetzung.
 focusTitle: "Unser Fokus liegt auf Bestandsimmobilien und Neubau – mit individuellen Leistungen rund um deren Entwicklung, Nutzung und Wertsteigerung."
 services:
   - title: "Potenzialanalysen & Machbarkeitsstudien"

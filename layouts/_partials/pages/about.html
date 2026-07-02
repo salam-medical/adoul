@@ -6,7 +6,9 @@
 </section>
 
 <section class="page-intro reveal">
-  <p class="lead">{{ .Params.intro }}</p>
+  {{ range $i, $p := split .Params.intro "\n\n" }}
+  {{ if $p }}<p class="lead{{ if gt $i 0 }} lead-spaced{{ end }}">{{ $p | markdownify }}</p>{{ end }}
+  {{ end }}
 </section>
 
 {{ range $i, $ch := .Params.chapters }}
@@ -41,7 +43,7 @@
       <p class="team-position">{{ $m.position }}</p>
       <p class="team-meta">
         {{ with $m.memberships }}<span>{{ . }}</span><br>{{ end }}
-        <span>{{ $m.languages }}</span>
+        {{ with $m.languages }}<span>{{ . }}</span>{{ end }}
       </p>
       <blockquote>„{{ $m.quote }}“</blockquote>
     </article>

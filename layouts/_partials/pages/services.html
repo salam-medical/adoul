@@ -6,7 +6,9 @@
 </section>
 
 <section class="page-intro reveal">
-  <p class="lead">{{ .Params.intro }}</p>
+  {{ range $i, $p := split .Params.intro "\n\n" }}
+  {{ if $p }}<p class="lead{{ if gt $i 0 }} lead-spaced{{ end }}">{{ $p | markdownify }}</p>{{ end }}
+  {{ end }}
 </section>
 
 <section class="services">
