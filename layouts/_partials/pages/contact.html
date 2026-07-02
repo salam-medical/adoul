@@ -12,8 +12,8 @@
 <section class="contact-grid">
   <div class="contact-card reveal">
     <h3>alma:s Architekten</h3>
-    <p>{{ site.Params.legalName }}<br>
-    {{ site.Params.street }}, 4. OG<br>
+    <p class="contact-legal">{{ site.Params.legalName }}</p>
+    <p class="contact-address">{{ site.Params.street }}, 4. OG<br>
     DE-{{ site.Params.city }}</p>
     <p>
       <a href="mailto:{{ site.Params.email }}">{{ site.Params.email }}</a><br>
@@ -31,6 +31,20 @@
   </div>
 </section>
 
+<section class="directions reveal">
+  <div class="section-head">
+    <h2>{{ .Params.directionsTitle }}</h2>
+  </div>
+  <div class="directions-grid">
+    {{ range $i, $d := .Params.directions }}
+    <div class="direction reveal" style="transition-delay:{{ mul $i 100 }}ms">
+      <h3>{{ $d.title }}</h3>
+      <p>{{ $d.text }}</p>
+    </div>
+    {{ end }}
+  </div>
+</section>
+
 <section class="chapter split">
   <div class="split-media reveal">
     <img src="{{ "img/building.webp" | relURL }}" alt="Berliner Straße 27, Frankfurt am Main" loading="lazy">
@@ -44,30 +58,6 @@
   </div>
 </section>
 
-<section class="chapter split alt">
-  <div class="split-media reveal">
-    <img src="{{ "img/otto-apel-1956.jpg" | relURL }}" alt="Architekt Otto Apel, 1956" loading="lazy">
-  </div>
-  <div class="split-text reveal">
-    <p class="eyebrow">1956</p>
-    <h2>Otto Apel</h2>
-    <div class="apel-photos">
-      <img src="{{ "img/otto-apel.jpg" | relURL }}" alt="Architekt Otto Apel" loading="lazy">
-    </div>
-  </div>
-</section>
-
 <section class="directions reveal">
-  <div class="section-head">
-    <h2>{{ .Params.directionsTitle }}</h2>
-  </div>
-  <div class="directions-grid">
-    {{ range $i, $d := .Params.directions }}
-    <div class="direction reveal" style="transition-delay:{{ mul $i 100 }}ms">
-      <h3>{{ $d.title }}</h3>
-      <p>{{ $d.text }}</p>
-    </div>
-    {{ end }}
-  </div>
   <p class="welcome-line">{{ .Params.welcomeLine }}</p>
 </section>

@@ -15,7 +15,7 @@ welcomeText: >
   zuhause fühlen.
 cards:
   - title: "Leistungen"
-    text: "Wir bieten Ihnen ein Rundum-sorglos-Paket – und übernehmen jeden Schritt für Sie, von der Planung bis zur schlüsselfertigen Umsetzung."
+    text: "Wir begleiten Sie dort, wo Sie uns brauchen – von der Planung über die Umsetzung bis zur Übergabe."
     image: "/img/services-home.jpg"
     link: "/leistungen/"
   - title: "Über uns"
@@ -39,7 +39,7 @@ processSteps:
   - num: "06–07"
     title: "Ausschreibung & Vergabe"
     text: "Faire, transparente Angebote und die Auswahl der besten Partner für Ihr Projekt."
-  - num: "08–09"
+  - num: "08"
     title: "Bau & Übergabe"
-    text: "Koordination der Bauarbeiten, Qualitätskontrolle und Begleitung bis nach dem Einzug."
+    text: "Koordination der Bauarbeiten, Qualitätskontrolle und Begleitung bis zur Übergabe."
 ---
