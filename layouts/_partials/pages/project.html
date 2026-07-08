@@ -19,20 +19,29 @@
 </section>
 
 <section class="project-gallery">
+  {{ with .Params.gallery }}
   <h2 class="reveal">{{ i18n "gallery" }}</h2>
   <div class="gallery-grid">
-    {{ range $i, $img := .Params.gallery }}
+    {{ range $i, $img := . }}
     <figure class="gallery-item reveal" style="transition-delay:{{ mul $i 80 }}ms">
       <img src="{{ $img | relURL }}" alt="{{ $.Title }} – {{ add $i 1 }}" loading="lazy" data-lightbox>
     </figure>
     {{ end }}
   </div>
+  {{ end }}
   {{ with .Params.plans }}
   <h2 class="reveal">{{ i18n "plans" }}</h2>
   <div class="gallery-grid plans">
-    {{ range $i, $img := . }}
+    {{ range $i, $p := . }}
+    {{ $src := $p }}
+    {{ $caption := "" }}
+    {{ if reflect.IsMap $p }}
+      {{ $src = $p.src }}
+      {{ $caption = $p.caption }}
+    {{ end }}
     <figure class="gallery-item reveal" style="transition-delay:{{ mul $i 80 }}ms">
-      <img src="{{ $img | relURL }}" alt="{{ $.Title }} – Plan {{ add $i 1 }}" loading="lazy" data-lightbox>
+      <img src="{{ $src | relURL }}" alt="{{ $.Title }} – {{ or $caption (printf "Plan %d" (add $i 1)) }}" loading="lazy" data-lightbox>
+      {{ with $caption }}<figcaption>{{ . }}</figcaption>{{ end }}
     </figure>
     {{ end }}
   </div>
