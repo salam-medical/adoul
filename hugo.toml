@@ -41,6 +41,10 @@ disableKinds = ["taxonomy", "term"]
       pageRef = "/projekte"
       weight = 30
     [[languages.de.menus.main]]
+      name = "Journal"
+      pageRef = "/journal"
+      weight = 35
+    [[languages.de.menus.main]]
       name = "Kontakt"
       pageRef = "/kontakt"
       weight = 40
@@ -64,6 +68,10 @@ disableKinds = ["taxonomy", "term"]
       name = "Projects"
       pageRef = "/projects"
       weight = 30
+    [[languages.en.menus.main]]
+      name = "Journal"
+      pageRef = "/journal"
+      weight = 35
     [[languages.en.menus.main]]
       name = "Contact"
       pageRef = "/contact"
@@ -94,6 +102,10 @@ disableKinds = ["taxonomy", "term"]
       pageRef = "/proyectos"
       weight = 30
     [[languages.es.menus.main]]
+      name = "Diario"
+      pageRef = "/diario"
+      weight = 35
+    [[languages.es.menus.main]]
       name = "Contacto"
       pageRef = "/contacto"
       weight = 40
@@ -118,6 +130,10 @@ disableKinds = ["taxonomy", "term"]
       name = "مشاريعنا"
       pageRef = "/projects"
       weight = 30
+    [[languages.ar.menus.main]]
+      name = "المجلة"
+      pageRef = "/journal"
+      weight = 35
     [[languages.ar.menus.main]]
       name = "اتصلوا بنا"
       pageRef = "/contact"

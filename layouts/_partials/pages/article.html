@@ -1,0 +1,19 @@
+<section class="page-hero journal-hero">
+  <div class="page-hero-bg" style="background-image:url('{{ .Params.cover | relURL }}')"></div>
+  <div class="page-hero-content">
+    <time class="journal-date" datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "02.01.2006" }}</time>
+    <h1>{{ .Title }}</h1>
+  </div>
+</section>
+
+<section class="journal-article reveal">
+  {{ with .Params.tags }}
+  <ul class="journal-tags" aria-label="{{ i18n "tags" }}">
+    {{ range . }}<li>{{ . }}</li>{{ end }}
+  </ul>
+  {{ end }}
+  <div class="prose">{{ .Content }}</div>
+  <p class="back-link"><a href="{{ .Parent.RelPermalink }}">← {{ i18n "backToJournal" }}</a></p>
+</section>
+
+{{ partial "cta.html" . }}

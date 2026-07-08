@@ -94,6 +94,16 @@ other = "Grundrisse & Konzept"
 [backToProjects]
 other = "Zurück zu allen Projekten"
 
+[readArticle]
+other = "Artikel lesen"
+
+[tags]
+other = "Themen"
+
+[backToJournal]
+other = "Zurück zum Journal"
+
+
 [langNote]
 other = "Diese Seite ist auch auf Englisch verfügbar."
 

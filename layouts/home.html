@@ -49,6 +49,22 @@
     </div>
   </a>
   {{ end }}
+  {{ with index (where site.Pages "Params.translationKey" "projects") 0 }}
+  <a class="card card-dark reveal" href="{{ .RelPermalink }}" style="transition-delay:240ms">
+    <div class="card-body">
+      <h3>{{ .Title }}</h3>
+      <span class="card-link">{{ i18n "readMore" }}</span>
+    </div>
+  </a>
+  {{ end }}
+  {{ with index (where site.Pages "Params.translationKey" "journal") 0 }}
+  <a class="card card-dark reveal" href="{{ .RelPermalink }}" style="transition-delay:360ms">
+    <div class="card-body">
+      <h3>{{ .Title }}</h3>
+      <span class="card-link">{{ i18n "readMore" }}</span>
+    </div>
+  </a>
+  {{ end }}
 </section>
 
 <section class="brand-block reveal">

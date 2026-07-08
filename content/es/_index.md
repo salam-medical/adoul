@@ -22,10 +22,6 @@ cards:
     text: "La arquitectura es nuestra pasión compartida. Es lo que nos impulsa y nos une. Desde nuestros años de estudio somos inseparables partners in crime."
     image: "/img/about-home.jpg"
     link: "/es/sobre-nosotros/"
-  - title: "Proyectos"
-    text: "Comprender los edificios existentes, reconocer su potencial y reinventar los espacios: nuestros proyectos muestran nuestra manera de entender la arquitectura."
-    image: "/img/skyline.jpg"
-    link: "/es/proyectos/"
 processSteps:
   - num: "01–02"
     title: "Fundamentos y variantes"

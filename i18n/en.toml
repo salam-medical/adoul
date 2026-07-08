@@ -94,6 +94,16 @@ other = "Floor plans & concept"
 [backToProjects]
 other = "Back to all projects"
 
+[readArticle]
+other = "Read article"
+
+[tags]
+other = "Tags"
+
+[backToJournal]
+other = "Back to the journal"
+
+
 [langNote]
 other = "This page is also available in German."
 

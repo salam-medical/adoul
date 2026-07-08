@@ -1,0 +1,33 @@
+<section class="page-hero">
+  <div class="page-hero-bg" style="background-image:url('{{ .Params.banner | default "/img/desk.webp" | relURL }}')"></div>
+  <div class="page-hero-content">
+    <h1>{{ .Title }}</h1>
+  </div>
+</section>
+
+<section class="page-intro reveal">
+  <p class="lead">{{ .Params.intro }}</p>
+</section>
+
+<section class="journal-list">
+  {{ range $i, $article := .Pages.ByDate.Reverse }}
+  <article class="journal-entry reveal" style="transition-delay:{{ mul (mod $i 3) 100 }}ms">
+    <a class="journal-entry-media" href="{{ $article.RelPermalink }}">
+      <img src="{{ $article.Params.cover | relURL }}" alt="{{ $article.Title }}" loading="lazy">
+    </a>
+    <div class="journal-entry-body">
+      <time class="journal-date" datetime="{{ $article.Date.Format "2006-01-02" }}">{{ $article.Date.Format "02.01.2006" }}</time>
+      <h2><a href="{{ $article.RelPermalink }}">{{ $article.Title }}</a></h2>
+      {{ with $article.Params.tags }}
+      <ul class="journal-tags" aria-label="{{ i18n "tags" }}">
+        {{ range . }}<li>{{ . }}</li>{{ end }}
+      </ul>
+      {{ end }}
+      <p>{{ $article.Summary }}</p>
+      <a class="card-link" href="{{ $article.RelPermalink }}">{{ i18n "readArticle" }} →</a>
+    </div>
+  </article>
+  {{ end }}
+</section>
+
+{{ partial "cta.html" . }}

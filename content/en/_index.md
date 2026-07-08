@@ -22,10 +22,6 @@ cards:
     text: "Architecture is our shared passion. It is what drives and connects us. Ever since our student days, we have been inseparable partners in crime."
     image: "/img/about-home.jpg"
     link: "/en/about/"
-  - title: "Projects"
-    text: "Understanding existing buildings, recognising their potential and redeveloping spaces – our projects show our approach to architecture."
-    image: "/img/skyline.jpg"
-    link: "/en/projects/"
 processSteps:
   - num: "01–02"
     title: "Fundamentals & options"

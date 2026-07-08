@@ -94,6 +94,16 @@ other = "Planos y concepto"
 [backToProjects]
 other = "Volver a todos los proyectos"
 
+[readArticle]
+other = "Leer artículo"
+
+[tags]
+other = "Temas"
+
+[backToJournal]
+other = "Volver al diario"
+
+
 [langNote]
 other = "Esta página también está disponible en alemán."
 

@@ -94,6 +94,16 @@ other = "المخططات والمفهوم"
 [backToProjects]
 other = "العودة إلى جميع المشاريع"
 
+[readArticle]
+other = "قراءة المقال"
+
+[tags]
+other = "الوسوم"
+
+[backToJournal]
+other = "العودة إلى المجلة"
+
+
 [langNote]
 other = "هذه الصفحة متوفرة أيضاً باللغة الألمانية."
 

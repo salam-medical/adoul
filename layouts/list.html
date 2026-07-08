@@ -1,3 +1,4 @@
 {{ define "main" }}
-{{ partial "pages/projects.html" . }}
+{{ $tpl := .Params.template | default "projects" }}
+{{ partial (printf "pages/%s.html" $tpl) . }}
 {{ end }}
