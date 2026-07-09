@@ -3,7 +3,7 @@ title: "Bauen im Bestand: Warum wir alte Gebäude neu denken"
 translationKey: journal-bauen-im-bestand
 template: article
 date: 2026-06-15
-cover: "/img/building.webp"
+cover: "/img/journal/bauen-im-bestand-cover.png"
 description: "Warum Bauen im Bestand für uns mehr ist als Sanierung: ein Blick auf unsere Haltung zu bestehender Bausubstanz."
 tags:
   - "Bauen im Bestand"

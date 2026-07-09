@@ -3,7 +3,7 @@ title: "From Floor Plan to Completion: Our Design Process"
 translationKey: journal-planungsprozess
 template: article
 date: 2026-05-02
-cover: "/img/office.webp"
+cover: "/img/journal/planungsprozess.png"
 description: "How we work from the first idea through the floor plan to handover: a look inside our design process."
 tags:
   - "Planning"

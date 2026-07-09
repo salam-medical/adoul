@@ -3,7 +3,7 @@ title: "De la planta al proyecto construido: nuestro proceso de planificación"
 translationKey: journal-planungsprozess
 template: article
 date: 2026-05-02
-cover: "/img/office.webp"
+cover: "/img/journal/planungsprozess.png"
 description: "Cómo trabajamos desde la primera idea, pasando por la planta, hasta la entrega: un vistazo a nuestro proceso de planificación."
 tags:
   - "Planificación"

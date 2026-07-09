@@ -3,7 +3,7 @@ title: "Vom Grundriss zur Umsetzung: Unser Planungsprozess"
 translationKey: journal-planungsprozess
 template: article
 date: 2026-05-02
-cover: "/img/office.webp"
+cover: "/img/journal/planungsprozess.png"
 description: "Wie wir von der ersten Idee über den Grundriss bis zur Übergabe arbeiten: ein Blick in unseren Planungsprozess."
 tags:
   - "Planung"

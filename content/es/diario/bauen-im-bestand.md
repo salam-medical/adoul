@@ -3,7 +3,7 @@ title: "Construir en el patrimonio existente: por qué repensamos los edificios 
 translationKey: journal-bauen-im-bestand
 template: article
 date: 2026-06-15
-cover: "/img/building.webp"
+cover: "/img/journal/bauen-im-bestand-cover.png"
 description: "Por qué construir en el patrimonio existente significa para nosotros mucho más que una rehabilitación: nuestra actitud ante la construcción existente."
 tags:
   - "Construcción en el patrimonio"

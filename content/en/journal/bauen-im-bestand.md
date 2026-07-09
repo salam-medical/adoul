@@ -3,7 +3,7 @@ title: "Building Within Existing Structures: Why We Rethink Old Buildings"
 translationKey: journal-bauen-im-bestand
 template: article
 date: 2026-06-15
-cover: "/img/building.webp"
+cover: "/img/journal/bauen-im-bestand-cover.png"
 description: "Why building within existing structures means more to us than renovation: a look at our approach to existing building fabric."
 tags:
   - "Building in Existing Structures"

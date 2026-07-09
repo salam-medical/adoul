@@ -3,7 +3,7 @@ title: "Nachhaltige Sanierung: Mehr Wert für Bestandsimmobilien"
 translationKey: journal-nachhaltige-sanierung
 template: article
 date: 2026-03-20
-cover: "/img/journal/sanierung.jpg"
+cover: "/img/journal/sanierung.png"
 description: "Wie eine durchdachte Sanierung die architektonische und wirtschaftliche Qualität von Bestandsimmobilien sichtbar macht."
 tags:
   - "Sanierung"
