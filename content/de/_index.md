@@ -22,6 +22,7 @@ cards:
     text: "Architektur ist unsere gemeinsame Leidenschaft. Das, was uns antreibt und verbindet. Schon seit unserer Studienzeit sind wir unzertrennliche Partners in Crime."
     image: "/img/about-home.jpg"
     link: "/ueber-uns/"
+projectsTileText: "Bestehende Gebäude verstehen, Potenziale erkennen und Räume neu entwickeln – unsere Projekte zeigen unsere Herangehensweise an Architektur."
 processSteps:
   - num: "01–02"
     title: "Grundlagen & Varianten"

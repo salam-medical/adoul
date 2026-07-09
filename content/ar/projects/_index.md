@@ -2,7 +2,7 @@
 title: "مشاريعنا"
 translationKey: projects
 description: "مشاريع alma:s Architekten في فرانكفورت: تحويل، ترميم وبناء جديد – لمحة عن أعمال مختارة ومشاريع قيد التنفيذ."
-banner: "/img/skyline.jpg"
+banner: "/img/projects/skyline.jpg"
 intro: >
   مشاريعنا تعكس نهجنا في العمارة: فهم المباني القائمة، وإدراك إمكاناتها،
   وإعادة تطوير الفضاءات. نعرض في هذه الصفحة دراسات ومفاهيم ومشاريع قيد

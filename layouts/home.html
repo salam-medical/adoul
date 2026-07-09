@@ -49,18 +49,23 @@
     </div>
   </a>
   {{ end }}
+  {{ $home := . }}
   {{ with index (where site.Pages "Params.translationKey" "projects") 0 }}
   <a class="card card-dark reveal" href="{{ .RelPermalink }}" style="transition-delay:240ms">
+    <div class="card-media"><img src="{{ .Params.banner | relURL }}" alt="{{ .Title }}" loading="lazy"></div>
     <div class="card-body">
       <h3>{{ .Title }}</h3>
+      <p>{{ $home.Params.projectsTileText }}</p>
       <span class="card-link">{{ i18n "readMore" }}</span>
     </div>
   </a>
   {{ end }}
   {{ with index (where site.Pages "Params.translationKey" "journal") 0 }}
   <a class="card card-dark reveal" href="{{ .RelPermalink }}" style="transition-delay:360ms">
+    <div class="card-media"><img src="{{ .Params.banner | relURL }}" alt="{{ .Title }}" loading="lazy"></div>
     <div class="card-body">
       <h3>{{ .Title }}</h3>
+      <p>{{ .Params.intro }}</p>
       <span class="card-link">{{ i18n "readMore" }}</span>
     </div>
   </a>

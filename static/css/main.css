@@ -256,6 +256,7 @@ h2 em, h1 em { font-style: italic; }
 .card.card-dark:hover { box-shadow: 0 24px 60px rgba(20,19,17,.35); }
 .card-dark .card-body { padding: 2.2rem; justify-content: flex-end; }
 .card-dark h3 { color: var(--cream); }
+.card-dark .card-body p { color: var(--taupe); }
 .card-dark .card-link { color: var(--accent); }
 
 /* ---------- brand block ---------- */
