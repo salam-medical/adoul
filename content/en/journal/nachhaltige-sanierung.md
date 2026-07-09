@@ -3,7 +3,7 @@ title: "Sustainable Renovation: Greater Value for Existing Properties"
 translationKey: journal-nachhaltige-sanierung
 template: article
 date: 2026-03-20
-cover: "/img/w278/render-2.jpg"
+cover: "/img/journal/sanierung.jpg"
 description: "How a well-considered renovation makes the architectural and economic quality of existing properties visible."
 tags:
   - "Renovation"

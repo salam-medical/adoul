@@ -3,7 +3,7 @@ title: "الترميم المستدام: قيمة أكبر للعقارات ال
 translationKey: journal-nachhaltige-sanierung
 template: article
 date: 2026-03-20
-cover: "/img/w278/render-2.jpg"
+cover: "/img/journal/sanierung.jpg"
 description: "كيف يُظهر الترميم المدروس الجودة المعمارية والاقتصادية للعقارات القائمة."
 tags:
   - "الترميم"

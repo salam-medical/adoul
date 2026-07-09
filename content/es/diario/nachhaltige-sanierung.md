@@ -3,7 +3,7 @@ title: "Rehabilitación sostenible: más valor para los inmuebles existentes"
 translationKey: journal-nachhaltige-sanierung
 template: article
 date: 2026-03-20
-cover: "/img/w278/render-2.jpg"
+cover: "/img/journal/sanierung.jpg"
 description: "Cómo una rehabilitación bien planteada hace visible la calidad arquitectónica y económica de los inmuebles existentes."
 tags:
   - "Rehabilitación"
