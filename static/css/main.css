@@ -444,6 +444,14 @@ a.project-card:hover .project-card-media img { transform: scale(1.06); }
 .journal-article .back-link { margin-top: 3rem; }
 .journal-article .back-link a { text-decoration: none; text-transform: uppercase; letter-spacing: .14em; font-size: .8rem; }
 .journal-article .back-link a:hover { color: var(--accent); }
+.journal-article .prose-sans h2,
+.journal-article .prose-sans h3 {
+  font-family: var(--sans);
+  font-weight: 700;
+  font-size: 1.4rem;
+  line-height: 1.3;
+  margin: 2.2rem 0 .9rem;
+}
 
 /* ---------- contact ---------- */
 .contact-grid { max-width: var(--maxw); margin: 0 auto clamp(4rem, 8vw, 6rem); padding: 0 var(--pad); display: grid; grid-template-columns: 1fr 1.2fr; gap: 2.5rem; align-items: stretch; }

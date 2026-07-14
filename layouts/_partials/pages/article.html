@@ -12,7 +12,7 @@
     {{ range . }}<li>{{ . }}</li>{{ end }}
   </ul>
   {{ end }}
-  <div class="prose">{{ .Content }}</div>
+  <div class="prose{{ if .Params.sansHeadings }} prose-sans{{ end }}">{{ .Content }}</div>
   <p class="back-link"><a href="{{ .Parent.RelPermalink }}">← {{ i18n "backToJournal" }}</a></p>
 </section>
 
