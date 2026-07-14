@@ -23,7 +23,7 @@
         {{ range . }}<li>{{ . }}</li>{{ end }}
       </ul>
       {{ end }}
-      <p>{{ $article.Summary }}</p>
+      <div class="journal-preview{{ if $article.Params.sansHeadings }} sans-heading{{ end }}">{{ $article.Summary }}</div>
       <a class="card-link" href="{{ $article.RelPermalink }}">{{ i18n "readArticle" }} →</a>
     </div>
   </article>

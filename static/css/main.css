@@ -431,6 +431,13 @@ a.project-card:hover .project-card-media img { transform: scale(1.06); }
 .journal-entry-body h2 a { text-decoration: none; }
 .journal-entry-body h2 a:hover { color: var(--accent); }
 .journal-entry-body p { color: var(--ink-soft); margin-bottom: 1.2rem; }
+.journal-preview.sans-heading h2 {
+  font-family: var(--sans);
+  font-weight: 700;
+  font-size: 1.6rem;
+  line-height: 1.3;
+  margin: 1rem 0 .6rem;
+}
 .journal-tags { list-style: none; display: flex; flex-wrap: wrap; gap: .6rem; margin-bottom: 1.2rem; }
 .journal-tags li {
   text-transform: uppercase; letter-spacing: .1em; font-size: .68rem;
