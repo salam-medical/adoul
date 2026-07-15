@@ -5,12 +5,12 @@
   <div class="hero-scrim"></div>
   <div class="hero-content">
     <p class="hero-eyebrow">alma<span class="accent">:</span>s Architekten · Frankfurt am Main</p>
-    <h1 class="hero-tagline" id="hero-tagline">
+    <p class="hero-tagline" id="hero-tagline">
       {{ range $i, $t := .Params.heroTaglines }}
       <span class="tagline{{ if eq $i 0 }} on{{ end }}" {{ if eq $t "فلنَبْنِ معاً" }}dir="rtl"{{ else }}dir="ltr"{{ end }}>{{ $t }}</span>
       {{ end }}
-    </h1>
-    <p class="hero-sub">{{ i18n "heroSub" }}</p>
+    </p>
+    <h1 class="hero-sub">{{ i18n "heroSub" }}</h1>
   </div>
   <a class="hero-scroll" href="#welcome"><span>{{ i18n "scrollDown" }}</span><i></i></a>
 </section>
