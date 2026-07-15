@@ -1,7 +1,7 @@
 ---
 title: "Servicios"
 translationKey: services
-description: "Servicios de alma:s Architekten, Fráncfort: asesoramiento, planificación, licencias y dirección de obra – todas las fases hasta la entrega llave en mano."
+description: "Servicios de alma:s Architekten, Fráncfort: obra nueva, reforma y rehabilitación – asesoramiento, planificación, licencias y dirección de obra hasta la entrega."
 template: services
 url: /es/servicios/
 banner: "/img/consultation.jpg"

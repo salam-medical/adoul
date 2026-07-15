@@ -1,7 +1,7 @@
 ---
 title: "خدماتنا"
 translationKey: services
-description: "خدمات alma:s Architekten في فرانكفورت: استشارة، تخطيط، تراخيص وإشراف على التنفيذ – جميع مراحل العمل حتى التسليم الجاهز."
+description: "خدمات alma:s Architekten في فرانكفورت: بناء جديد، تحويل وترميم – استشارة، تخطيط، تراخيص وإشراف على التنفيذ حتى التسليم الجاهز."
 template: services
 url: /ar/services/
 banner: "/img/consultation.jpg"

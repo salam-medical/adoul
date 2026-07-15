@@ -1,5 +1,5 @@
 ---
-description: "Leistungen von alma:s Architekten, Frankfurt: Beratung, Planung, Genehmigung und Bauleitung – alle Leistungsphasen bis zur schlüsselfertigen Übergabe."
+description: "Leistungen von alma:s Architekten, Frankfurt: Neubau, Umbau und Sanierung – Beratung, Planung, Genehmigung und Bauleitung bis zur schlüsselfertigen Übergabe."
 title: "Leistungen"
 translationKey: services
 template: services
