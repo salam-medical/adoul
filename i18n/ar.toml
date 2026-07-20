@@ -175,33 +175,3 @@ other = "الصفحة التي تبحثون عنها غير موجودة أو ت
 
 [backHome]
 other = "العودة إلى الصفحة الرئيسية"
-
-[contactFormTitle]
-other = "راسلونا"
-
-[contactFormSub]
-other = "أخبرونا قليلاً عن مشروعكم — سنعاود التواصل معكم خلال يومي عمل."
-
-[formName]
-other = "الاسم"
-
-[formEmail]
-other = "البريد الإلكتروني"
-
-[formPhone]
-other = "الهاتف (اختياري)"
-
-[formMessage]
-other = "رسالتكم"
-
-[formSubmit]
-other = "إرسال الرسالة"
-
-[formSending]
-other = "جارٍ الإرسال …"
-
-[formSuccess]
-other = "شكراً لكم! وصلتنا رسالتكم وسنتواصل معكم قريباً."
-
-[formError]
-other = "حدث خطأ ما. يرجى المحاولة مرة أخرى أو مراسلتنا مباشرة على"

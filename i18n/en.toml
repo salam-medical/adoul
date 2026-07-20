@@ -175,33 +175,3 @@ other = "The page you are looking for does not exist or has been moved."
 
 [backHome]
 other = "Back to the homepage"
-
-[contactFormTitle]
-other = "Write to us"
-
-[contactFormSub]
-other = "Tell us a little about your project – we'll get back to you within 2 working days."
-
-[formName]
-other = "Name"
-
-[formEmail]
-other = "Email"
-
-[formPhone]
-other = "Phone (optional)"
-
-[formMessage]
-other = "Your message"
-
-[formSubmit]
-other = "Send message"
-
-[formSending]
-other = "Sending …"
-
-[formSuccess]
-other = "Thank you! Your message has arrived – we'll be in touch."
-
-[formError]
-other = "Something went wrong. Please try again or email us directly at"

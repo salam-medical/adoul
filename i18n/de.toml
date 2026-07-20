@@ -175,33 +175,3 @@ other = "Die gesuchte Seite existiert nicht oder wurde verschoben."
 
 [backHome]
 other = "Zur Startseite"
-
-[contactFormTitle]
-other = "Schreiben Sie uns"
-
-[contactFormSub]
-other = "Erzählen Sie uns kurz von Ihrem Vorhaben – wir melden uns innerhalb von 2 Werktagen."
-
-[formName]
-other = "Name"
-
-[formEmail]
-other = "E-Mail"
-
-[formPhone]
-other = "Telefon (optional)"
-
-[formMessage]
-other = "Ihre Nachricht"
-
-[formSubmit]
-other = "Nachricht senden"
-
-[formSending]
-other = "Wird gesendet …"
-
-[formSuccess]
-other = "Danke! Ihre Nachricht ist angekommen – wir melden uns bei Ihnen."
-
-[formError]
-other = "Da ist etwas schiefgelaufen. Bitte versuchen Sie es erneut oder schreiben Sie uns direkt an"

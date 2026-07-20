@@ -175,33 +175,3 @@ other = "La página que buscas no existe o ha sido movida."
 
 [backHome]
 other = "Volver a la página de inicio"
-
-[contactFormTitle]
-other = "Escríbenos"
-
-[contactFormSub]
-other = "Cuéntanos brevemente sobre tu proyecto: te responderemos en un plazo de 2 días laborables."
-
-[formName]
-other = "Nombre"
-
-[formEmail]
-other = "Correo electrónico"
-
-[formPhone]
-other = "Teléfono (opcional)"
-
-[formMessage]
-other = "Tu mensaje"
-
-[formSubmit]
-other = "Enviar mensaje"
-
-[formSending]
-other = "Enviando …"
-
-[formSuccess]
-other = "¡Gracias! Tu mensaje nos ha llegado, nos pondremos en contacto contigo."
-
-[formError]
-other = "Algo ha salido mal. Inténtalo de nuevo o escríbenos directamente a"
