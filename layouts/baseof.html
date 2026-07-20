@@ -14,8 +14,9 @@
     <button class="lightbox-close" aria-label="Close">&times;</button>
     <img src="" alt="">
   </div>
-  <script src="{{ "js/main.js" | relURL }}" defer></script>
-  <script src="{{ "js/consent.js" | relURL }}" defer></script>
-  <script src="{{ "js/contact-form.js" | relURL }}" defer></script>
+  {{- range slice "js/main.js" "js/consent.js" "js/contact-form.js" }}
+  {{- $js := resources.Get . | resources.Fingerprint "sha256" }}
+  <script src="{{ $js.RelPermalink }}" integrity="{{ $js.Data.Integrity }}" defer></script>
+  {{- end }}
 </body>
 </html>

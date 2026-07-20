@@ -24,7 +24,8 @@
 {{- if .IsHome }}
 <link rel="preload" href="{{ "img/hero-frankfurt.jpg" | relURL }}" as="image" fetchpriority="high">
 {{- end }}
-<link rel="stylesheet" href="{{ "css/main.css" | relURL }}">
+{{- $css := resources.Get "css/main.css" | resources.Fingerprint "sha256" }}
+<link rel="stylesheet" href="{{ $css.RelPermalink }}" integrity="{{ $css.Data.Integrity }}">
 <noscript><style>.reveal{opacity:1;transform:none}</style></noscript>
 <meta property="og:site_name" content="{{ site.Title }}">
 <meta property="og:title" content="{{ $title }}">
