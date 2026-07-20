@@ -3,7 +3,7 @@ title: "Contacto"
 translationKey: contact
 template: contact
 url: /es/contacto/
-intro: "¡Contáctanos y concierta tu primera consulta gratuita!"
+intro: "Reserva directamente tu primera consulta y conócenos en una cita personal. Llámanos o escríbenos un mensaje. Nos alegra recibirte en nuestra oficina, en pleno corazón del centro de Fráncfort."
 officeTitle: "Nuestro estudio"
 officeText: |
   Nuestro estudio se encuentra en una ubicación céntrica, en Berliner Straße 27, 4.ª planta, en Fráncfort del Meno, en un edificio que el arquitecto Otto Apel creó en 1956 con líneas claras y un optimismo sereno.

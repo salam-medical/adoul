@@ -3,7 +3,7 @@ title: "Kontakt"
 translationKey: contact
 template: contact
 url: /kontakt/
-intro: "Sprechen Sie uns an und vereinbaren Sie Ihre kostenfreie Erstberatung!"
+intro: "Buchen Sie direkt Ihr Erstgespräch und lernen Sie uns in einem persönlichen Termin kennen. Rufen Sie uns an oder schreiben Sie uns eine Nachricht. Wir freuen uns auf Ihren Besuch in unserem Büro mitten im Herzen des Frankfurter Zentrums."
 officeTitle: "Unser Büro"
 officeText: |
   Unser Büro liegt im 4. Obergeschoss der Berliner Straße 27 – einem denkmalgeschützten Wohn- und Geschäftshaus, das 1956 von Otto Apel und Eberhard Brandl entworfen wurde.

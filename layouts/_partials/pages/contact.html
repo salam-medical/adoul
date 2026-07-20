@@ -31,6 +31,42 @@
   </div>
 </section>
 
+<section class="contact-form-section reveal">
+  <div class="section-head">
+    <h2>{{ i18n "contactFormTitle" }}</h2>
+    <p class="section-sub">{{ i18n "contactFormSub" }}</p>
+  </div>
+  <form name="contact" method="POST" data-netlify="true" netlify-honeypot="bot-field" class="contact-form" id="contact-form"
+    data-sending-label="{{ i18n "formSending" }}"
+    data-success-label="{{ i18n "formSuccess" }}"
+    data-error-label="{{ i18n "formError" }} {{ site.Params.email }}.">
+    <input type="hidden" name="form-name" value="contact">
+    <p class="hp-field" hidden>
+      <label>Leave this field empty: <input name="bot-field" tabindex="-1" autocomplete="off"></label>
+    </p>
+    <div class="form-row">
+      <label for="cf-name">{{ i18n "formName" }}</label>
+      <input type="text" id="cf-name" name="name" autocomplete="name" required>
+    </div>
+    <div class="form-row">
+      <label for="cf-email">{{ i18n "formEmail" }}</label>
+      <input type="email" id="cf-email" name="email" autocomplete="email" required>
+    </div>
+    <div class="form-row">
+      <label for="cf-phone">{{ i18n "formPhone" }}</label>
+      <input type="tel" id="cf-phone" name="phone" autocomplete="tel">
+    </div>
+    <div class="form-row form-row-full">
+      <label for="cf-message">{{ i18n "formMessage" }}</label>
+      <textarea id="cf-message" name="message" rows="5" required></textarea>
+    </div>
+    <div class="form-row form-row-full form-actions">
+      <button type="submit" class="btn">{{ i18n "formSubmit" }}</button>
+      <p class="form-status" id="contact-form-status" role="status" aria-live="polite" hidden></p>
+    </div>
+  </form>
+</section>
+
 <section class="directions reveal">
   <div class="section-head">
     <h2>{{ .Params.directionsTitle }}</h2>

@@ -3,7 +3,7 @@ title: "Contact"
 translationKey: contact
 template: contact
 url: /en/contact/
-intro: "Get in touch and arrange your free initial consultation!"
+intro: "Book your initial consultation directly and get to know us in a personal meeting. Call us or send us a message. We look forward to welcoming you to our office right in the heart of Frankfurt's city centre."
 officeTitle: "Our studio"
 officeText: |
   Our studio is centrally located at Berliner Straße 27, 4th floor, in Frankfurt am Main – in a building that architect Otto Apel created in 1956 with clear lines and quiet optimism.
