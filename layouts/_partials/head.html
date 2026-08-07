@@ -49,6 +49,7 @@
   "name" site.Params.firm
   "legalName" site.Params.legalName
   "description" site.Params.description
+  "slogan" (i18n "brandTagline")
   "url" site.Home.Permalink
   "logo" ("img/logo.png" | absURL)
   "image" ("img/hero-frankfurt.jpg" | absURL)
@@ -60,8 +61,25 @@
     "postalCode" site.Params.postalCode
     "addressLocality" site.Params.locality
     "addressCountry" "DE")
-  "areaServed" (dict "@type" "City" "name" "Frankfurt am Main")
-  "knowsAbout" (slice "Architektur" "Bauen im Bestand" "Umbau" "Sanierung" "Neubau")
+  "areaServed" (slice
+    (dict "@type" "City" "name" "Frankfurt am Main")
+    (dict "@type" "City" "name" "Wiesbaden")
+    (dict "@type" "City" "name" "Mainz")
+    (dict "@type" "City" "name" "Darmstadt")
+    (dict "@type" "City" "name" "Bad Homburg")
+    (dict "@type" "City" "name" "Königstein im Taunus")
+    (dict "@type" "City" "name" "Kronberg im Taunus")
+    (dict "@type" "City" "name" "Eschborn")
+    (dict "@type" "City" "name" "Offenbach am Main")
+    (dict "@type" "City" "name" "Langen")
+    (dict "@type" "AdministrativeArea" "name" "Rhein-Main-Gebiet"))
+  "knowsAbout" (slice
+    "Architektur" "Bauen im Bestand" "Umbau" "Sanierung" "Neubau" "Investorenprojekte"
+    "Nutzungsänderung" "Machbarkeitsstudie" "Entwurfsplanung" "Genehmigungsplanung"
+    "Ausführungsplanung" "Ausschreibung" "Potenzialanalysen" "Energetische Sanierung" "Interior Design")
+  "keywords" (slice
+    "Einfamilienhäuser" "Mehrfamilienhäuser" "Dachgeschossausbau" "Aufstockung"
+    "Arztpraxen" "Kanzleien" "Gewerbeflächen" "Garage" "Wintergarten" "Wohnraumerweiterung")
   "sameAs" (slice site.Params.instagram site.Params.linkedin site.Params.facebook)
 }}
 <script type="application/ld+json">{{ $schema | jsonify | safeJS }}</script>
