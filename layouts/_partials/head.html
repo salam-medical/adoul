@@ -17,6 +17,10 @@
 <link rel="alternate" hreflang="x-default" href="{{ .Permalink }}">
 {{- end }}
 <meta name="theme-color" content="#1e1d1b">
+<meta name="geo.region" content="DE-HE">
+<meta name="geo.placename" content="Frankfurt am Main">
+<meta name="geo.position" content="50.1118;8.6821">
+<meta name="ICBM" content="50.1118, 8.6821">
 <link rel="icon" href="{{ "img/favicon-32.jpg" | relURL }}">
 <link rel="apple-touch-icon" href="{{ "img/apple-touch-icon.png" | relURL }}">
 <link rel="preload" href="{{ "fonts/Manier-Light.woff2" | relURL }}" as="font" type="font/woff2" crossorigin>
@@ -74,11 +78,13 @@
     (dict "@type" "City" "name" "Langen")
     (dict "@type" "AdministrativeArea" "name" "Rhein-Main-Gebiet"))
   "knowsAbout" (slice
-    "Architektur" "Bauen im Bestand" "Umbau" "Sanierung" "Neubau" "Investorenprojekte"
+    "Architektur" "Bauen im Bestand" "Umbau" "Anbau" "Sanierung" "Neubau" "Investorenprojekte"
     "Nutzungsänderung" "Machbarkeitsstudie" "Entwurfsplanung" "Genehmigungsplanung"
-    "Ausführungsplanung" "Ausschreibung" "Potenzialanalysen" "Energetische Sanierung" "Interior Design")
+    "Ausführungsplanung" "Ausschreibung" "Baugenehmigung" "Bauleitung" "Projektsteuerung"
+    "Potenzialanalysen" "Energetische Sanierung" "Nachhaltiges Bauen" "Passivhaus"
+    "Barrierefreies Bauen" "Denkmalschutz" "Innenarchitektur" "Interior Design")
   "keywords" (slice
-    "Einfamilienhäuser" "Mehrfamilienhäuser" "Dachgeschossausbau" "Aufstockung"
+    "Einfamilienhäuser" "Mehrfamilienhäuser" "Dachgeschossausbau" "Aufstockung" "Altbau"
     "Arztpraxen" "Kanzleien" "Gewerbeflächen" "Garage" "Wintergarten" "Wohnraumerweiterung")
   "sameAs" (slice site.Params.instagram site.Params.linkedin site.Params.facebook)
 }}
