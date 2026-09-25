@@ -10,12 +10,12 @@ intro: >
   service phases, client and project period.
 list:
   - name: "WHS 176"
-    description: "Subsequent submission of building permit documents for an existing terraced house."
+    description: "Consultation and preparation of the building permit documents for the loft conversion."
     scope: "Phase 4"
     client: "Private client"
     period: "2026"
   - name: "Q11"
-    description: "Sustainable design for converting a large existing apartment into a multi-generational house, and preparation of construction drawings to German standards, in Amman, Jordan."
+    description: "Renovation and modernization of a three-storey residential building."
     scope: "Phases 3 and 5"
     client: "Private client"
     period: "2026"

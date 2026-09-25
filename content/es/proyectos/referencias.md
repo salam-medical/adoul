@@ -10,12 +10,12 @@ intro: >
   fases de trabajo, cliente y periodo del proyecto.
 list:
   - name: "WHS 176"
-    description: "Presentación posterior de la documentación de licencia de obra para una vivienda adosada existente."
+    description: "Asesoramiento y elaboración de la documentación de licencia de obra para la ampliación del ático."
     scope: "Fase 4"
     client: "Cliente privado"
     period: "2026"
   - name: "Q11"
-    description: "Diseño sostenible para transformar una gran vivienda existente en una casa multigeneracional, y elaboración de los planos de ejecución conforme a la normativa alemana, en Ammán, Jordania."
+    description: "Renovación y modernización de un edificio residencial de tres plantas."
     scope: "Fases 3 y 5"
     client: "Cliente privado"
     period: "2026"

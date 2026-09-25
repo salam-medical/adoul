@@ -10,12 +10,12 @@ intro: >
   Angaben zu Leistungsphasen, Auftraggeber und Bearbeitungszeitraum.
 list:
   - name: "WHS 176"
-    description: "Nachträgliche Einreichung der Bauantragsunterlagen für ein bestehendes Reihenhaus."
+    description: "Beratung und Erstellung der Bauantragsunterlagen für den Dachgeschossausbau."
     scope: "LPh 4"
     client: "Privater Bauherr"
     period: "2026"
   - name: "Q11"
-    description: "Nachhaltiger Entwurf für die Umwandlung einer großen Bestandswohnung zu einem Mehrgenerationenhaus und Erstellung der Ausführungspläne gemäß deutschem Standard in Amman, Jordanien."
+    description: "Renovierung und Modernisierung eines dreigeschossigen Wohngebäudes."
     scope: "LPh 3 und 5"
     client: "Privater Bauherr"
     period: "2026"
