@@ -25,6 +25,18 @@ other = "عرض المشروع"
 [allProjects]
 other = "جميع المشاريع"
 
+[viewReferences]
+other = "عرض المزيد من المراجع"
+
+[referenceScope]
+other = "نطاق الخدمات"
+
+[referenceClient]
+other = "العميل"
+
+[referencePeriod]
+other = "فترة التنفيذ"
+
 [featuredProject]
 other = "مشروع مميز"
 

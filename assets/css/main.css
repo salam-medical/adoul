@@ -393,6 +393,15 @@ a.project-card:hover .project-card-media img { transform: scale(1.06); }
 .project-card.coming { opacity: .75; }
 .project-card.coming .project-card-media img { filter: grayscale(.4); opacity: .8; }
 
+.reference-list { max-width: var(--maxw); margin: 0 auto clamp(4rem, 8vw, 6rem); padding: 0 var(--pad); }
+.reference-item { display: grid; grid-template-columns: 1.6fr 1fr; gap: 1.4rem 3rem; padding: 2.2rem 0; border-top: 1px solid var(--taupe); }
+.reference-item:last-of-type { border-bottom: 1px solid var(--taupe); }
+.reference-main h3 { font-family: var(--serif); font-size: 1.5rem; margin-bottom: .5rem; }
+.reference-main p { color: var(--ink-soft); }
+.reference-meta { display: flex; flex-direction: column; gap: .7rem; align-self: start; }
+.reference-meta p { font-family: var(--serif); font-size: .95rem; }
+.reference-meta span { display: block; font-family: var(--sans); text-transform: uppercase; letter-spacing: .14em; font-size: .68rem; color: var(--ink-soft); margin-bottom: .2rem; }
+
 .project-hero { height: 70vh; max-height: 860px; }
 .project-facts { background: var(--ink); color: var(--cream); padding: 2.4rem var(--pad); }
 .project-facts dl { max-width: var(--maxw); margin: 0 auto; display: flex; flex-wrap: wrap; gap: clamp(2rem, 5vw, 4.5rem); }
@@ -649,6 +658,7 @@ a.project-card:hover .project-card-media img { transform: scale(1.06); }
   .split.alt .split-media { order: 0; }
   .split.alt .split-text { order: 1; }
   .cards, .projects-grid, .team-grid, .services-grid { grid-template-columns: 1fr; }
+  .reference-item { grid-template-columns: 1fr; }
   .gallery-grid, .gallery-grid.plans { grid-template-columns: 1fr; }
 
 }

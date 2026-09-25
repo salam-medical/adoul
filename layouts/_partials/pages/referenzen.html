@@ -1,0 +1,29 @@
+<section class="page-hero project-hero">
+  <div class="page-hero-bg" style="background-image:url('{{ .Params.banner | default "img/projects/skyline.jpg" | relURL }}')"></div>
+  <div class="page-hero-content">
+    <h1>{{ .Title }}</h1>
+  </div>
+</section>
+
+<section class="page-intro reveal">
+  <p class="lead">{{ .Params.intro }}</p>
+</section>
+
+<section class="reference-list">
+  {{ range $i, $r := .Params.list }}
+  <div class="reference-item reveal" style="transition-delay:{{ mul $i 80 }}ms">
+    <div class="reference-main">
+      <h3>{{ $r.name }}</h3>
+      <p>{{ $r.description }}</p>
+    </div>
+    <div class="reference-meta">
+      <p><span>{{ i18n "referenceScope" }}</span>{{ $r.scope }}</p>
+      <p><span>{{ i18n "referenceClient" }}</span>{{ $r.client }}</p>
+      <p><span>{{ i18n "referencePeriod" }}</span>{{ $r.period }}</p>
+    </div>
+  </div>
+  {{ end }}
+  <p class="back-link reveal"><a href="{{ .Parent.RelPermalink }}">← {{ i18n "backToProjects" }}</a></p>
+</section>
+
+{{ partial "cta.html" . }}

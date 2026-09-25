@@ -25,6 +25,18 @@ other = "View project"
 [allProjects]
 other = "All projects"
 
+[viewReferences]
+other = "View further references"
+
+[referenceScope]
+other = "Scope of services"
+
+[referenceClient]
+other = "Client"
+
+[referencePeriod]
+other = "Project period"
+
 [featuredProject]
 other = "Featured project"
 
