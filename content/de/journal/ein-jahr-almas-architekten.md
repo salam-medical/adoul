@@ -2,6 +2,7 @@
 title: "Ein Jahr alma:s Architekten — unser KI-Assistent hat gefragt, wir haben geantwortet"
 translationKey: journal-ein-jahr-almas-architekten
 template: article
+sansHeadings: true
 date: 2026-10-01
 cover: "/img/journal/ein-jahr-almas-architekten-cover.jpg"
 description: "Vor einem Jahr haben wir alma:s Architekten gegründet. Unser KI-Assistent BOB hat uns zum Jahrestag interviewt – über Zweifel, Stolz und das, was kommt."

@@ -2,6 +2,7 @@
 title: "عام واحد على alma:s Architekten — مساعدنا الذكي سأل، ونحن أجبنا"
 translationKey: journal-ein-jahr-almas-architekten
 template: article
+sansHeadings: true
 date: 2026-10-01
 cover: "/img/journal/ein-jahr-almas-architekten-cover.jpg"
 description: "قبل عام أسّسنا alma:s Architekten. بمناسبة الذكرى السنوية أجرى معنا مساعدنا الذكي BOB مقابلة – عن الشكوك والفخر وما هو قادم."

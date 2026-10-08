@@ -2,6 +2,7 @@
 title: "One Year of alma:s Architekten — Our AI Assistant Asked, We Answered"
 translationKey: journal-ein-jahr-almas-architekten
 template: article
+sansHeadings: true
 date: 2026-10-01
 cover: "/img/journal/ein-jahr-almas-architekten-cover.jpg"
 description: "One year ago we founded alma:s Architekten. For our anniversary, our AI assistant BOB interviewed us – about doubts, pride, and what lies ahead."
