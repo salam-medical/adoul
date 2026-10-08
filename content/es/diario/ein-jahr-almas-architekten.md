@@ -4,7 +4,7 @@ translationKey: journal-ein-jahr-almas-architekten
 template: article
 date: 2026-10-01
 cover: "/img/journal/ein-jahr-almas-architekten-cover.jpg"
-description: "Hace un año fundamos alma:s Architekten. Por el aniversario, nuestro asistente de IA Claude nos entrevistó – sobre dudas, orgullo y lo que está por venir."
+description: "Hace un año fundamos alma:s Architekten. Por el aniversario, nuestro asistente de IA BOB nos entrevistó – sobre dudas, orgullo y lo que está por venir."
 tags:
   - "Equipo"
   - "Fundación"
@@ -14,19 +14,19 @@ tags:
   - "Sociedad"
 ---
 
-Con motivo del primer aniversario de alma:s Architekten Lopez Jibrel PartG mbB, nuestro asistente de IA Claude nos sentó para una entrevista de verdad — sobre sentimientos, obstáculos y reflexiones de nuestro primer año como arquitectos autónomos. Las respuestas están sin editar. Tal como somos.
+Con motivo del primer aniversario de alma:s Architekten Lopez Jibrel PartG mbB, nuestro asistente de IA BOB nos sentó para una entrevista de verdad — sobre sentimientos, obstáculos y reflexiones de nuestro primer año como arquitectos autónomos. Las respuestas están sin editar. Tal como somos.
 
 ## El momento de hace un año
 
 Cuando salimos de la notaría en Fráncfort el pasado octubre, nos quedamos de pie en la acera y nos miramos. Adoul dijo: «Joder, ahora tenemos una empresa.» Luego: «Enhorabuena, socia.» Y Jorge: «Enhorabuena, socio.» Un apretón de manos. Ese fue el comienzo de alma:s Architekten.
 
-Lo que vino después no fue un camino recto. Fue un año lleno de momentos que no habíamos esperado así — ni los buenos ni los difíciles. Con ocasión de nuestro primer aniversario, nuestro asistente de IA Claude nos hizo ocho preguntas, de esas que se conocen de los documentales y las entrevistas. Preguntas personales. Preguntas que rara vez nos hacemos el uno al otro, aunque trabajamos juntos cada día — y también vivimos juntos.
+Lo que vino después no fue un camino recto. Fue un año lleno de momentos que no habíamos esperado así — ni los buenos ni los difíciles. Con ocasión de nuestro primer aniversario, nuestro asistente de IA BOB nos hizo ocho preguntas, de esas que se conocen de los documentales y las entrevistas. Preguntas personales. Preguntas que rara vez nos hacemos el uno al otro, aunque trabajamos juntos cada día — y también vivimos juntos.
 
 Aquí están nuestras respuestas.
 
 ## «Increíble, por fin lo hemos hecho.» — Sobre el primer momento
 
-Claude preguntó: ¿Cuál fue el primerísimo pensamiento al salir de la notaría?
+BOB preguntó: ¿Cuál fue el primerísimo pensamiento al salir de la notaría?
 
 Jorge: Fue, sin duda, un momento muy especial — con mucha alegría, mucha emoción, mucha adrenalina, sobre todo en el corazón. El primer pensamiento fue: vamos a construir nuestro pequeño imperio. Vamos a construir muchas casas bonitas, muchos edificios bonitos. Haremos felices a las personas. Y por fin lo haremos todo con gusto, cada día.
 
@@ -36,7 +36,7 @@ Luego nos reímos. Y nos dimos la mano.
 
 ## «Por muy oscuro que pareciera el día — al final el sol sale igualmente.» — Sobre los momentos más duros
 
-Claude preguntó: ¿Cuál fue la semana más dura, y cómo os sacasteis el uno al otro de ahí?
+BOB preguntó: ¿Cuál fue la semana más dura, y cómo os sacasteis el uno al otro de ahí?
 
 Jorge: Uno planea el trabajo autónomo con mucha antelación. Cree que conoce los riesgos. Pero cuando el momento llega de verdad — cuando la semana realmente es así de dura — uno se sorprende igualmente. Dudas de ti mismo. De si has aprendido lo suficiente. De si estás tomando las decisiones correctas. Pero al final todos esos son problemas que se pueden resolver — hablando, conversando, con la conciencia tranquila. Lo más importante es no perder nunca el optimismo.
 
@@ -46,7 +46,7 @@ Adoul: Por mucho que uno se prepare en la cabeza: la realidad siempre muestra ot
 
 ## «El primer encargo de alguien que no nos conocía.» — Sobre el momento de mayor orgullo
 
-Claude preguntó: ¿Cuándo os mirasteis y pensasteis: sí, exactamente para esto lo hicimos?
+BOB preguntó: ¿Cuándo os mirasteis y pensasteis: sí, exactamente para esto lo hicimos?
 
 Adoul: Dos momentos me vienen enseguida a la mente. Primero: el primer encargo sin recomendación de alguien conocido — de alguien que simplemente buscaba un arquitecto y nos encontró. Fue un momento de mucho orgullo. Y segundo: la Mesa Larga de la Baukultur. Un objetivo que nos habíamos propuesto, que alcanzamos, y por el que hasta hoy no recibimos más que comentarios positivos.
 
@@ -56,7 +56,7 @@ Jorge: La Mesa Larga — la montamos los dos solos. Lo hicimos todo nosotros mis
 
 ## «Este año nos ha acercado más que los últimos seis años juntos.» — Sobre la sociedad
 
-Claude preguntó: No sois solo socios de oficina, os conocéis desde hace tiempo y vivís juntos. ¿Cómo ha cambiado vuestra relación?
+BOB preguntó: No sois solo socios de oficina, os conocéis desde hace tiempo y vivís juntos. ¿Cómo ha cambiado vuestra relación?
 
 Adoul: Trabajar juntos es otro nivel que vivir juntos. Uno no solo tiene que acercarse al otro con amor, sino siempre también con respeto — incluso cuando no se está de acuerdo, incluso cuando no se entiende de inmediato la forma de trabajar del otro. Este año nos ha acercado más que los últimos seis años en que nos conocemos. A través de este contacto, casi veinticuatro horas.
 
@@ -66,7 +66,7 @@ Adoul: Uno aprende más sobre la calidad del tiempo. Se pregunta: ¿para quién 
 
 ## «Eres autónomo — y tal como dice ese título: no necesitas a nadie más que a tu instinto.» — Sobre lo que le diríamos a nuestro yo de hace un año
 
-Claude preguntó: ¿Qué le diríais al Adoul y al Jorge de hace un año?
+BOB preguntó: ¿Qué le diríais al Adoul y al Jorge de hace un año?
 
 Jorge: Lo que entonces no sabía: lo difícil que es darse a conocer como estudio cuando eres nuevo como marca. Lo difícil que es llegar a los proyectos cuando nadie te conoce. Todo eso — la contabilidad, los costes, la captación de clientes — quita tanto tiempo que no te lo crees de antemano.
 
@@ -74,7 +74,7 @@ Adoul: No lo haría todo de otra manera. Los mismos errores, sí — pero gestio
 
 ## «Un lugar para la arquitectura, el debate, el encuentro — un salón en el corazón de Fráncfort.» — Sobre la visión
 
-Claude preguntó: ¿Qué debería ser alma:s dentro de cinco años?
+BOB preguntó: ¿Qué debería ser alma:s dentro de cinco años?
 
 Adoul: alma:s es nuestro hijo. Ahora tiene un año. Deseo que dentro de cinco años sea más que una oficina que dibuja planos. Quiero que alma:s sea un lugar — para la arquitectura, para el asesoramiento energético, para la conversación. Un salón interdisciplinar y multidiverso. Un lugar creativo donde se reúnen personas distintas.
 
@@ -82,7 +82,7 @@ Jorge: alma:s significa para nosotros alma — y diamante. Valiosa no a cualquie
 
 ## «He aprendido a creer en mí.» — Sobre lo inesperado
 
-Claude preguntó: ¿Qué os regaló este año con lo que no contabais en absoluto?
+BOB preguntó: ¿Qué os regaló este año con lo que no contabais en absoluto?
 
 Jorge: Reflexión. He aprendido a acallar las dudas — no reprimiéndolas, sino comprendiendo. Tengo conocimiento suficiente. Mis decisiones tienen peso. He llegado suficientemente lejos. Suena sencillo, pero interiorizarlo de verdad me ha llevado todo este año. Y he aprendido: el trabajo autónomo también significa libertad. No trabajar diez horas cada día, sino a veces tres — y luego salir a la ciudad, observar arquitectura, hacer un pequeño viaje. Eso es lo que hace tan especial esta autonomía.
 
@@ -90,7 +90,7 @@ Adoul: He aprendido a volver a mi yo original. Libre de miedo. Positivo. Levanta
 
 ## Un deseo para el segundo año
 
-Claude preguntó: No el plan — el deseo.
+BOB preguntó: No el plan — el deseo.
 
 Jorge: Proyectos emocionantes y apasionantes. Y más viajes.
 

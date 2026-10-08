@@ -4,7 +4,7 @@ translationKey: journal-ein-jahr-almas-architekten
 template: article
 date: 2026-10-01
 cover: "/img/journal/ein-jahr-almas-architekten-cover.jpg"
-description: "Vor einem Jahr haben wir alma:s Architekten gegründet. Unser KI-Assistent Claude hat uns zum Jahrestag interviewt – über Zweifel, Stolz und das, was kommt."
+description: "Vor einem Jahr haben wir alma:s Architekten gegründet. Unser KI-Assistent BOB hat uns zum Jahrestag interviewt – über Zweifel, Stolz und das, was kommt."
 tags:
   - "Team"
   - "Gründung"
@@ -14,19 +14,19 @@ tags:
   - "Partnerschaft"
 ---
 
-Zum ersten Jahrestag von alma:s Architekten Lopez Jibrel PartG mbB hat uns unser KI-Assistent Claude in einem echten Interview befragt — über Gefühle, Hürden und Reflexionen aus unserem ersten Jahr als selbstständige Architekten. Die Antworten sind unbearbeitet. So wie wir sind.
+Zum ersten Jahrestag von alma:s Architekten Lopez Jibrel PartG mbB hat uns unser KI-Assistent BOB in einem echten Interview befragt — über Gefühle, Hürden und Reflexionen aus unserem ersten Jahr als selbstständige Architekten. Die Antworten sind unbearbeitet. So wie wir sind.
 
 ## Der Moment vor einem Jahr
 
 Als wir letzten Oktober das Notarbüro in Frankfurt verließen, standen wir auf dem Bürgersteig und schauten uns an. Adoul sagte: „Scheiße, jetzt haben wir eine Firma." Dann: „Herzlichen Glückwunsch, Partnerin." Und Jorge: „Herzlichen Glückwunsch, Partner." Ein Händedruck. Das war der Anfang von alma:s Architekten.
 
-Was danach kam, war kein gerader Weg. Es war ein Jahr voller Momente, die wir so nicht erwartet hatten — weder die guten noch die schwierigen. Anlässlich unseres ersten Jahrestages hat uns unser KI-Assistent Claude acht Fragen gestellt, wie man sie aus Dokumentationen und Interviews kennt. Persönliche Fragen. Fragen, die wir uns selten gegenseitig stellen, obwohl wir täglich zusammenarbeiten — und zusammenleben.
+Was danach kam, war kein gerader Weg. Es war ein Jahr voller Momente, die wir so nicht erwartet hatten — weder die guten noch die schwierigen. Anlässlich unseres ersten Jahrestages hat uns unser KI-Assistent BOB acht Fragen gestellt, wie man sie aus Dokumentationen und Interviews kennt. Persönliche Fragen. Fragen, die wir uns selten gegenseitig stellen, obwohl wir täglich zusammenarbeiten — und zusammenleben.
 
 Hier sind unsere Antworten.
 
 ## „Krass, wir haben's endlich gemacht." — Über den ersten Moment
 
-Claude hat gefragt: Was war der allererste Gedanke, als ihr das Notarbüro verlassen habt?
+BOB hat gefragt: Was war der allererste Gedanke, als ihr das Notarbüro verlassen habt?
 
 Jorge: Das war auf jeden Fall ein sehr besonderer Moment — mit viel Freude, viel Aufregung, viel Adrenalin, vor allem im Herzen. Der erste Gedanke war: Wir machen unser kleines Empire. Wir werden viele schöne Häuser bauen, viele schöne Gebäude. Wir werden Menschen glücklich machen. Und wir werden endlich mit Spaß alles machen, jeden Tag.
 
@@ -36,7 +36,7 @@ Dann haben wir gelacht. Und uns die Hand gegeben.
 
 ## „Egal wie dunkel der Tag aussah — die Sonne kommt am Ende trotzdem raus." — Über die härtesten Momente
 
-Claude hat gefragt: Was war die schwerste Woche, und wie habt ihr euch gegenseitig da rausgezogen?
+BOB hat gefragt: Was war die schwerste Woche, und wie habt ihr euch gegenseitig da rausgezogen?
 
 Jorge: Man plant die Selbstständigkeit lange im Voraus. Man glaubt, man kennt die Risiken. Aber wenn der Moment wirklich kommt — wenn die Woche wirklich so hart ist — dann ist man trotzdem überrascht. Man zweifelt an sich. Ob man genug gelernt hat. Ob man die richtigen Entscheidungen trifft. Aber am Ende sind das alles Probleme, die man lösen kann — mit Gesprächen, mit Reden, mit einem guten Gewissen. Das Wichtigste ist, niemals den Optimismus zu verlieren.
 
@@ -46,7 +46,7 @@ Adoul: Egal wie viel man sich im Kopf vorbereitet: Die Realität zeigt immer and
 
 ## „Der erste Auftrag von jemandem, der uns nicht kannte." — Über den stolzesten Moment
 
-Claude hat gefragt: Wann habt ihr euch angeschaut und gedacht: Ja, genau dafür haben wir das gemacht?
+BOB hat gefragt: Wann habt ihr euch angeschaut und gedacht: Ja, genau dafür haben wir das gemacht?
 
 Adoul: Zwei Momente kommen mir sofort in den Sinn. Erstens: der erste Auftrag ohne Weiterempfehlung aus dem Bekanntenkreis — von jemandem, der einfach einen Architekten gesucht und uns gefunden hat. Das war ein sehr stolzer Moment. Und zweitens: die Lange Tafel der Baukultur. Ein Ziel, das wir uns gesetzt hatten, das wir erreicht haben, und für das wir bis heute nur positives Feedback bekommen.
 
@@ -56,7 +56,7 @@ Jorge: Die Lange Tafel — das haben wir zu zweit aufgebaut. Alles selber gemach
 
 ## „Dieses Jahr hat uns mehr Nähe gebracht als die letzten sechs Jahre zusammen." — Über Partnerschaft
 
-Claude hat gefragt: Ihr seid nicht nur Büropartner, ihr kennt euch lange und lebt zusammen. Wie hat sich eure Beziehung verändert?
+BOB hat gefragt: Ihr seid nicht nur Büropartner, ihr kennt euch lange und lebt zusammen. Wie hat sich eure Beziehung verändert?
 
 Adoul: Zusammenzuarbeiten ist ein anderes Niveau als zusammenzuleben. Man muss nicht nur mit Liebe an den anderen rankommen, sondern auch immer mit Respekt — auch wenn man anderer Meinung ist, auch wenn man die andere Arbeitsweise nicht sofort versteht. Dieses Jahr hat uns näher zusammengebracht als die letzten sechs Jahre, in denen wir uns kennen. Durch diesen Kontakt, fast vierundzwanzig Stunden.
 
@@ -66,7 +66,7 @@ Adoul: Man lernt mehr über Zeitqualität. Man fragt sich: Für wen und wofür i
 
 ## „Du bist selbstständig — und genau wie dieser Titel sagt: Du brauchst niemanden außer deinem Bauchgefühl." — Über das, was wir dem Vorjahres-Ich sagen würden
 
-Claude hat gefragt: Was würdet ihr dem Adoul und dem Jorge von vor einem Jahr sagen?
+BOB hat gefragt: Was würdet ihr dem Adoul und dem Jorge von vor einem Jahr sagen?
 
 Jorge: Was ich damals nicht wusste: wie schwierig es ist, als Büro bekannt zu werden, wenn man als Marke neu ist. Wie schwer es ist, an Projekte ranzukommen, wenn einen keiner kennt. All das — Buchführung, Kosten, Akquise — nimmt so viel Zeit, das glaubt man vorher gar nicht.
 
@@ -74,7 +74,7 @@ Adoul: Ich würde nicht alles anders machen. Die gleichen Fehler, ja — aber sc
 
 ## „Ein Ort für Architektur, Diskurs, Begegnung — ein Salon im Herzen Frankfurts." — Über die Vision
 
-Claude hat gefragt: Was soll alma:s in fünf Jahren sein?
+BOB hat gefragt: Was soll alma:s in fünf Jahren sein?
 
 Adoul: alma:s ist unser Kind. Ein Jahr alt jetzt. Ich wünsche mir, dass es in fünf Jahren mehr ist als ein Büro, das Pläne zeichnet. Ich möchte, dass alma:s ein Ort ist — für Architektur, für Energieberatung, für Gespräche. Ein interdisziplinärer, multidiverser Salon. Ein kreativer Ort, an dem verschiedene Menschen zusammenkommen.
 
@@ -82,7 +82,7 @@ Jorge: alma:s bedeutet für uns Seele — und Diamant. Wertvoll nicht um jeden P
 
 ## „Ich habe gelernt, an mich zu glauben." — Über das Unerwartete
 
-Claude hat gefragt: Was hat euch dieses Jahr geschenkt, womit ihr gar nicht gerechnet habt?
+BOB hat gefragt: Was hat euch dieses Jahr geschenkt, womit ihr gar nicht gerechnet habt?
 
 Jorge: Reflexion. Ich habe gelernt, die Zweifel zu unterdrücken — nicht durch Verdrängung, sondern durch Erkenntnis. Ich habe genug Wissen. Meine Entscheidungen haben Gewicht. Ich bin weit genug. Das klingt einfach, aber es wirklich zu verinnerlichen, hat mich dieses Jahr gebraucht. Und ich habe gelernt: Selbstständigkeit bedeutet auch Freiheit. Nicht jeden Tag zehn Stunden arbeiten, sondern manchmal drei Stunden — und dann in die Stadt gehen, Architektur beobachten, eine kleine Reise machen. Das macht diese Selbstständigkeit so besonders.
 
@@ -90,7 +90,7 @@ Adoul: Ich habe gelernt, zu meinem ursprünglichen Selbst zurückzukommen. Frei 
 
 ## Ein Wunsch fürs zweite Jahr
 
-Claude hat gefragt: Nicht der Plan — der Wunsch.
+BOB hat gefragt: Nicht der Plan — der Wunsch.
 
 Jorge: Aufregende, spannende Projekte. Und mehr Reisen.
 
