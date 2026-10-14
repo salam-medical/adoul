@@ -9,6 +9,11 @@ intro: >
   Eine Übersicht weiterer Projekte, an denen wir mitgewirkt haben – mit
   Angaben zu Leistungsphasen, Auftraggeber und Bearbeitungszeitraum.
 list:
+  - name: "EL457"
+    description: "Errichtung von 2 Mehrfamilienhäusern mit Gewerbeeinheit."
+    scope: "LPh 6 und 7"
+    client: "Gewerblicher Bauherr"
+    period: "2026–2027"
   - name: "WHS 176"
     description: "Beratung und Erstellung der Bauantragsunterlagen für den Dachgeschossausbau."
     scope: "LPh 4"

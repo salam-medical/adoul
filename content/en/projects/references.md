@@ -9,6 +9,11 @@ intro: >
   An overview of further projects we have contributed to – with details on
   service phases, client and project period.
 list:
+  - name: "EL457"
+    description: "Construction of 2 multi-family residential buildings with a commercial unit."
+    scope: "Phases 6 and 7"
+    client: "Commercial client"
+    period: "2026–2027"
   - name: "WHS 176"
     description: "Consultation and preparation of the building permit documents for the loft conversion."
     scope: "Phase 4"

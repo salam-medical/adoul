@@ -9,6 +9,11 @@ intro: >
   Un resumen de otros proyectos en los que hemos colaborado, con datos sobre
   fases de trabajo, cliente y periodo del proyecto.
 list:
+  - name: "EL457"
+    description: "Construcción de 2 edificios residenciales plurifamiliares con una unidad comercial."
+    scope: "Fases 6 y 7"
+    client: "Cliente comercial"
+    period: "2026–2027"
   - name: "WHS 176"
     description: "Asesoramiento y elaboración de la documentación de licencia de obra para la ampliación del ático."
     scope: "Fase 4"
