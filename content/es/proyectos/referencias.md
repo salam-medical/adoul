@@ -9,6 +9,11 @@ intro: >
   Un resumen de otros proyectos en los que hemos colaborado, con datos sobre
   fases de trabajo, cliente y periodo del proyecto.
 list:
+  - name: "BS18"
+    description: "Supervisión de obra para la construcción de una cubierta sobre un jardín de servicio en la planta baja de un edificio residencial y comercial."
+    scope: "Fase 8"
+    client: "Cliente comercial"
+    period: "2026–2027"
   - name: "EL457"
     description: "Construcción de 2 edificios residenciales plurifamiliares con una unidad comercial."
     scope: "Fases 6 y 7"

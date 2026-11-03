@@ -9,6 +9,11 @@ intro: >
   Eine Übersicht weiterer Projekte, an denen wir mitgewirkt haben – mit
   Angaben zu Leistungsphasen, Auftraggeber und Bearbeitungszeitraum.
 list:
+  - name: "BS18"
+    description: "Bauüberwachung der Errichtung einer Überdachung eines Wirtschaftsgartens im Erdgeschoss eines Wohn- und Geschäftshauses."
+    scope: "LPh 8"
+    client: "Gewerblicher Bauherr"
+    period: "2026–2027"
   - name: "EL457"
     description: "Errichtung von 2 Mehrfamilienhäusern mit Gewerbeeinheit."
     scope: "LPh 6 und 7"

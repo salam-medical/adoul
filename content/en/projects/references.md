@@ -9,6 +9,11 @@ intro: >
   An overview of further projects we have contributed to – with details on
   service phases, client and project period.
 list:
+  - name: "BS18"
+    description: "Construction supervision for the erection of a canopy over a utility garden on the ground floor of a residential and commercial building."
+    scope: "Phase 8"
+    client: "Commercial client"
+    period: "2026–2027"
   - name: "EL457"
     description: "Construction of 2 multi-family residential buildings with a commercial unit."
     scope: "Phases 6 and 7"
