@@ -70,6 +70,9 @@ other = "Ihr Projekt beginnt hier."
 [getInTouch]
 other = "Kontakt aufnehmen"
 
+[navigation]
+other = "Navigation"
+
 [address]
 other = "Adresse"
 

@@ -99,3 +99,16 @@
 {{- $breadcrumb := dict "@context" "https://schema.org" "@type" "BreadcrumbList" "itemListElement" $crumbs }}
 <script type="application/ld+json">{{ $breadcrumb | jsonify | safeJS }}</script>
 {{- end }}
+{{- with .Params.faqGroups }}
+{{- $mainEntity := slice }}
+{{- range . }}
+{{- range .items }}
+{{- $mainEntity = $mainEntity | append (dict
+  "@type" "Question"
+  "name" .question
+  "acceptedAnswer" (dict "@type" "Answer" "text" .answer)) }}
+{{- end }}
+{{- end }}
+{{- $faqSchema := dict "@context" "https://schema.org" "@type" "FAQPage" "mainEntity" $mainEntity }}
+<script type="application/ld+json">{{ $faqSchema | jsonify | safeJS }}</script>
+{{- end }}

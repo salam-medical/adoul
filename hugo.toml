@@ -49,6 +49,10 @@ disableKinds = ["taxonomy", "term"]
       name = "Kontakt"
       pageRef = "/kontakt"
       weight = 40
+    [[languages.de.menus.main]]
+      name = "FAQ"
+      pageRef = "/faq"
+      weight = 50
 
   [languages.en]
     languageCode = "en-GB"
@@ -77,6 +81,10 @@ disableKinds = ["taxonomy", "term"]
       name = "Contact"
       pageRef = "/contact"
       weight = 40
+    [[languages.en.menus.main]]
+      name = "FAQ"
+      pageRef = "/faq"
+      weight = 50
 
 [markup]
   [markup.goldmark]
@@ -110,6 +118,10 @@ disableKinds = ["taxonomy", "term"]
       name = "Contacto"
       pageRef = "/contacto"
       weight = 40
+    [[languages.es.menus.main]]
+      name = "Preguntas frecuentes"
+      pageRef = "/preguntas-frecuentes"
+      weight = 50
 
   [languages.ar]
     languageCode = "ar"
@@ -139,3 +151,7 @@ disableKinds = ["taxonomy", "term"]
       name = "اتصلوا بنا"
       pageRef = "/contact"
       weight = 40
+    [[languages.ar.menus.main]]
+      name = "الأسئلة الشائعة"
+      pageRef = "/faq"
+      weight = 50

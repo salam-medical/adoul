@@ -1,0 +1,26 @@
+<section class="page-hero">
+  <div class="page-hero-bg" style="background-image:url('{{ .Params.banner | relURL }}')"></div>
+  <div class="page-hero-content">
+    <h1>{{ .Title }}</h1>
+  </div>
+</section>
+
+<section class="page-intro reveal">
+  {{ range $i, $p := split .Params.intro "\n\n" }}
+  {{ if $p }}<p class="lead{{ if gt $i 0 }} lead-spaced{{ end }}">{{ $p | markdownify }}</p>{{ end }}
+  {{ end }}
+</section>
+
+<section class="journal-article reveal">
+  <div class="prose prose-sans">
+    {{ range .Params.faqGroups }}
+    <h2>{{ .title }}</h2>
+    {{ range .items }}
+    <h3>{{ .question }}</h3>
+    <p>{{ .answer }}</p>
+    {{ end }}
+    {{ end }}
+  </div>
+</section>
+
+{{ partial "cta.html" . }}

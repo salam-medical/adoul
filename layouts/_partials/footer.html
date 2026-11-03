@@ -7,6 +7,12 @@
       <img src="{{ "img/diamond.png" | relURL }}" alt="" class="footer-diamond" loading="lazy">
     </div>
     <div class="footer-col">
+      <h4>{{ i18n "navigation" }}</h4>
+      <ul class="footer-nav">
+        {{ range site.Menus.main }}<li><a href="{{ .URL }}">{{ .Name }}</a></li>{{ end }}
+      </ul>
+    </div>
+    <div class="footer-col">
       <h4>{{ i18n "address" }}</h4>
       <p>{{ site.Params.street }}<br>
       {{ site.Params.city }}<br>
