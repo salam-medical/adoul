@@ -1,26 +1,26 @@
 ---
 title: "Servicios"
 translationKey: services
-description: "Servicios de alma:s Architekten, Fráncfort: obra nueva, reforma y rehabilitación – asesoramiento, planificación, licencias y dirección de obra hasta la entrega."
+description: "Servicios de alma:s Architekten en Fráncfort del Meno: reforma, cambio de uso, rehabilitación y obra nueva – asesoramiento, planificación y licencias."
 template: services
 url: /es/servicios/
 banner: "/img/consultation.jpg"
 intro: >
-  Un proyecto con nosotros siempre comienza con una conversación personal:
-  escuchamos con atención, analizamos la situación de partida y elaboramos
-  contigo las soluciones adecuadas. Sobre esta base desarrollamos los diseños,
-  nos ocupamos de los planos necesarios y acompañamos la ejecución hasta el
-  edificio terminado.
+  Un proyecto con nosotros en Fráncfort del Meno y la región Rin-Meno siempre
+  comienza con una conversación personal: escuchamos con atención, analizamos
+  la situación de partida y elaboramos contigo las soluciones adecuadas. Sobre
+  esta base desarrollamos los diseños, nos ocupamos de los planos necesarios y
+  acompañamos la ejecución hasta el edificio terminado.
 focusTitle: "Nuestro enfoque son los inmuebles existentes y la obra nueva, con servicios a medida para su desarrollo, uso y revalorización."
 services:
   - title: "Análisis de potencial y estudios de viabilidad"
     text: "Estudio de edificios existentes en cuanto a su potencial de reconversión y desarrollo, análisis de la estructura construida, del marco legal y de la viabilidad económica de distintos escenarios."
   - title: "Planificación de obra nueva"
     text: "Planificación de nuevos edificios residenciales y comerciales – desde la primera idea, pasando por la planificación de la licencia, hasta la dirección de obra, adaptada a la parcela, las necesidades y el presupuesto."
-  - title: "Conceptos de uso a medida"
-    text: "Desarrollo de conceptos individuales de reconversión: desde entornos de trabajo modernos (p. ej. co-working, oficinas flexibles) hasta lofts, talleres, showrooms y espacios de producción ligera, pasando por edificios de uso mixto."
+  - title: "Cambio de uso y conceptos de uso a medida"
+    text: "Acompañamiento en cambios de uso en Fráncfort del Meno y la región Rin-Meno, además del desarrollo de conceptos individuales de reconversión: desde entornos de trabajo modernos (p. ej. co-working, oficinas flexibles) hasta lofts, talleres, showrooms y espacios de producción ligera, pasando por edificios de uso mixto."
   - title: "Reforma y rehabilitación energética"
-    text: "Planificación y ejecución de medidas de reforma, así como de medidas para aumentar la eficiencia energética, p. ej. aislamiento, ventanas nuevas, sistemas de calefacción."
+    text: "Planificación y ejecución de medidas de reforma en Fráncfort del Meno y la región Rin-Meno, así como de medidas para aumentar la eficiencia energética, p. ej. aislamiento, ventanas nuevas, sistemas de calefacción."
   - title: "Rediseño arquitectónico e identidad"
     text: "Desarrollo de soluciones de diseño que respetan el carácter de lo existente y crean al mismo tiempo una identidad contemporánea: desde la fachada y los interiores hasta los espacios exteriores."
 typicalTitle: "Proyectos típicos son, entre otros:"
@@ -30,6 +30,7 @@ typical:
   - "Reforma de consultas médicas, despachos y pequeños locales comerciales"
   - "Anexos (p. ej. garaje, jardín de invierno, ampliación de la vivienda)"
   - "Revitalización y reconversión de pequeños edificios plurifamiliares"
+  - "Cambios de uso, p. ej. de local comercial a vivienda"
 typicalNote: "Además, ofrecemos servicios complementarios como acondicionamiento para alquiler y digitalización."
 stepsTitle: "Nuestros módulos"
 stepsIntro: "Desde la primera idea hasta la entrega, te acompañamos en todas las fases del proyecto: con una estructura clara, transparente y personal."

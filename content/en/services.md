@@ -1,25 +1,26 @@
 ---
-description: "Services by alma:s Architekten, Frankfurt: new-build, conversion and renovation – consultation, design, permits and site supervision to turnkey handover."
+description: "Services by alma:s Architekten in Frankfurt am Main: conversion, change of use, renovation and new-build – consultation, design, permits, site supervision."
 title: "Services"
 translationKey: services
 template: services
 url: /en/services/
 banner: "/img/consultation.jpg"
 intro: >
-  A project with us always begins with a personal conversation: we listen
-  carefully, analyse the starting situation and work out the right solutions
-  together with you. On this basis we develop designs, take care of the required
-  plans and accompany the realisation through to the finished building.
+  A project with us in Frankfurt am Main and the Rhine-Main region always begins
+  with a personal conversation: we listen carefully, analyse the starting
+  situation and work out the right solutions together with you. On this basis we
+  develop designs, take care of the required plans and accompany the realisation
+  through to the finished building.
 focusTitle: "Our focus is on existing properties and new construction – with individual services around their development, use and value enhancement."
 services:
   - title: "Potential analyses & feasibility studies"
     text: "Examination of existing buildings with regard to conversion and development potential, analysis of the building fabric, the legal framework and the economic viability of different scenarios."
   - title: "New-build planning"
     text: "Planning of new residential and commercial buildings – from the first idea through permit planning to site supervision, tailored to the plot, needs and budget."
-  - title: "Individual usage concepts"
-    text: "Development of individual concepts for conversions – from modern working environments (e.g. co-working, flexible offices) to lofts, ateliers, showrooms and light production facilities through to mixed-use buildings."
+  - title: "Change of use & individual usage concepts"
+    text: "Support with changes of use in Frankfurt am Main and the Rhine-Main region, plus development of individual concepts for conversions – from modern working environments (e.g. co-working, flexible offices) to lofts, ateliers, showrooms and light production facilities through to mixed-use buildings."
   - title: "Conversion & energy-efficient renovation"
-    text: "Planning and implementation of conversion measures as well as measures to increase energy efficiency, e.g. insulation, new windows, heating systems."
+    text: "Planning and implementation of conversion measures in Frankfurt am Main and the Rhine-Main region as well as measures to increase energy efficiency, e.g. insulation, new windows, heating systems."
   - title: "Architectural redesign & identity"
     text: "Development of design solutions that respect the character of the existing building while creating a contemporary identity – from the façade and the interiors through to the outdoor areas."
 typicalTitle: "Typical projects include"
@@ -29,6 +30,7 @@ typical:
   - "Conversion of medical practices, law firms and smaller commercial spaces"
   - "Extensions (e.g. garage, conservatory, additional living space)"
   - "Revitalisation and conversion of smaller apartment buildings"
+  - "Changes of use, e.g. from commercial to residential space"
 typicalNote: "In addition, we offer complementary services such as tenant fit-out and digitalisation."
 stepsTitle: "Our building blocks"
 stepsIntro: "From the first idea to the handover, we accompany you through all work stages – clearly structured, transparent and personal."
