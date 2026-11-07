@@ -12,7 +12,7 @@ faqGroups:
       - question: "¿A partir de cuándo debería contactar con un estudio de arquitectura?"
         answer: "Lo ideal es antes de comprar un inmueble o contratar a un gremio. En esta fase temprana todavía se pueden aclarar muchas cosas: qué es posible desde el punto de vista urbanístico, qué costará aproximadamente y dónde están los riesgos. Más adelante, las decisiones ya suelen estar tomadas y solo se pueden cambiar a un coste elevado."
       - question: "¿Qué ocurre en la primera conversación?"
-        answer: "Usted nos cuenta lo que tiene en mente, y nosotros preguntamos sobre el inmueble, el presupuesto y el plazo. Después le decimos con honestidad si somos el estudio adecuado para ello y qué pasos tendrían sentido a continuación. La primera consulta es gratuita para usted; su duración depende del proyecto."
+        answer: "Usted nos cuenta lo que tiene en mente, y nosotros preguntamos sobre el inmueble, el presupuesto y el plazo. Después le decimos con honestidad si somos el estudio adecuado para ello y qué pasos tendrían sentido a continuación. La duración de la primera consulta depende del proyecto."
       - question: "¿Qué debería traer a la primera cita?"
         answer: "Todo lo que tenga sobre el inmueble: planos, antiguas licencias de obra, fotos, una nota simple registral o el folleto del inmueble. Si no dispone de nada de eso, no es ningún problema. La documentación existente a menudo puede consultarse solicitando acceso al expediente en la autoridad de construcción competente."
       - question: "¿También se encargan de proyectos de obra nueva, o solo de trabajos en edificios existentes?"

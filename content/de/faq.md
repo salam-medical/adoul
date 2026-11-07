@@ -12,7 +12,7 @@ faqGroups:
       - question: "Ab wann sollte ich ein Architekturbüro einschalten?"
         answer: "Am besten, bevor Sie ein Gebäude kaufen oder einen Handwerker beauftragen. In dieser frühen Phase lässt sich noch vieles klären: was baurechtlich möglich ist, was ungefähr kostet und wo Risiken liegen. Später sind Entscheidungen oft schon gefallen und lassen sich nur noch teuer ändern."
       - question: "Was passiert im ersten Gespräch?"
-        answer: "Sie erzählen uns, was Sie vorhaben, und wir stellen Fragen zum Gebäude, zum Budget und zum Zeitrahmen. Danach sagen wir Ihnen ehrlich, ob wir das richtige Büro dafür sind und welche Schritte als Nächstes sinnvoll wären. Das Erstgespräch ist für Sie kostenfrei; wie lange es dauert, hängt vom Projekt ab."
+        answer: "Sie erzählen uns, was Sie vorhaben, und wir stellen Fragen zum Gebäude, zum Budget und zum Zeitrahmen. Danach sagen wir Ihnen ehrlich, ob wir das richtige Büro dafür sind und welche Schritte als Nächstes sinnvoll wären. Wie lange das Erstgespräch dauert, hängt vom Projekt ab."
       - question: "Was sollte ich zum ersten Termin mitbringen?"
         answer: "Alles, was Sie zum Gebäude haben: Pläne, alte Baugenehmigungen, Fotos, einen Grundbuchauszug oder das Exposé. Wenn Sie nichts davon haben, ist das kein Problem. Bestandsunterlagen kann man oft per Akteneinsicht bei der zuständigen Bauaufsicht einsehen."
       - question: "Übernehmen Sie auch Neubauprojekte oder nur Arbeiten an bestehenden Gebäuden?"

@@ -12,7 +12,7 @@ faqGroups:
       - question: "When should I bring in an architecture firm?"
         answer: "Ideally before you buy a building or hire a contractor. At this early stage, many things can still be clarified: what's legally possible, roughly what it will cost, and where the risks lie. Later on, decisions have often already been made and can only be changed at a high cost."
       - question: "What happens in the first conversation?"
-        answer: "You tell us what you have in mind, and we ask about the building, the budget and the timeframe. Afterwards, we tell you honestly whether we're the right firm for it and what the sensible next steps would be. The initial consultation is free of charge for you; how long it takes depends on the project."
+        answer: "You tell us what you have in mind, and we ask about the building, the budget and the timeframe. Afterwards, we tell you honestly whether we're the right firm for it and what the sensible next steps would be. How long the initial consultation takes depends on the project."
       - question: "What should I bring to the first appointment?"
         answer: "Anything you have on the building: plans, old building permits, photos, a land register extract or the property listing. If you don't have any of that, it's not a problem. Existing records can often be viewed by requesting file access from the relevant building authority."
       - question: "Do you also take on new-build projects, or only work on existing buildings?"
