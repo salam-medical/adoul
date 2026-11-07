@@ -1,12 +1,12 @@
 ---
-description: "Leistungen von alma:s Architekten, Frankfurt: Neubau, Umbau und Sanierung – Beratung, Planung, Genehmigung und Bauleitung bis zur schlüsselfertigen Übergabe."
+description: "Leistungen von alma:s Architekten in Frankfurt am Main: Umbau, Nutzungsänderung, Sanierung und Neubau – Beratung, Planung, Genehmigung, Bauleitung."
 title: "Leistungen"
 translationKey: services
 template: services
 url: /leistungen/
 banner: "/img/consultation.jpg"
 intro: |
-  **Wir begleiten private Bauherr:innen und Investoren bei Projekten im Bestand wie bei Neubauten - von der ersten Idee bis zur Umsetzung.**
+  **Wir begleiten private Bauherr:innen und Investoren in Frankfurt am Main und im Rhein-Main-Gebiet bei Projekten im Bestand wie bei Neubauten - von der ersten Idee bis zur Umsetzung.**
 
   Jedes Projekt beginnt mit einer anderen Ausgangssitution. Manche möchten ein Haus umbauen, andere zusätzlichen Wohnraum schaffen, eine Immobilie weiterentwickeln oder Geschäftsräume neu gestalten.
 
@@ -17,10 +17,10 @@ services:
     text: "Untersuchung von Bestandsgebäuden hinsichtlich Umnutzungs- und Entwicklungspotenzial, Analyse der Bausubstanz, der rechtlichen Rahmenbedingungen sowie der wirtschaftlichen Tragfähigkeit verschiedener Szenarien."
   - title: "Neubauplanung"
     text: "Planung neuer Wohn- und Geschäftsgebäude – von der ersten Idee über die Genehmigungsplanung bis zur Bauleitung, abgestimmt auf Grundstück, Bedarf und Budget."
-  - title: "Individuelle Nutzungskonzepte"
-    text: "Entwicklung individueller Konzepte für Umnutzungen – von modernen Arbeitswelten (z. B. Co-Working, flexible Büros) über Lofts, Ateliers, Showrooms und leichte Produktionsstätten bis hin zu gemischt genutzten Gebäuden."
+  - title: "Nutzungsänderung & individuelle Nutzungskonzepte"
+    text: "Begleitung von Nutzungsänderungen in Frankfurt am Main und im Rhein-Main-Gebiet sowie Entwicklung individueller Konzepte für Umnutzungen – von modernen Arbeitswelten (z. B. Co-Working, flexible Büros) über Lofts, Ateliers, Showrooms und leichte Produktionsstätten bis hin zu gemischt genutzten Gebäuden."
   - title: "Umbau & energetische Sanierung"
-    text: "Planung und Umsetzung von Umbaumaßnahmen sowie Maßnahmen zur Energieeffizienzsteigerung, z. B. Dämmung, neue Fenster, Heizungsanlagen."
+    text: "Planung und Umsetzung von Umbaumaßnahmen in Frankfurt am Main und im Rhein-Main-Gebiet sowie Maßnahmen zur Energieeffizienzsteigerung, z. B. Dämmung, neue Fenster, Heizungsanlagen."
   - title: "Architektonische Neugestaltung & Identität"
     text: "Entwicklung von Gestaltungslösungen, die den Charakter des Bestands respektieren und gleichzeitig eine zeitgemäße Identität schaffen – von der Fassade über die Innenräume bis hin zu den Außenanlagen."
 typicalTitle: "Typische Projekte sind u. a."
@@ -30,6 +30,7 @@ typical:
   - "Umbau von Arztpraxen, Kanzleien und kleineren Gewerbeflächen"
   - "Anbauten (z. B. Garage, Wintergarten, Wohnraumerweiterung)"
   - "Revitalisierung und Umnutzung kleinerer Mehrfamilienhäuser"
+  - "Nutzungsänderungen, z. B. von Gewerbe- zu Wohnfläche"
 typicalNote: "Darüber hinaus bieten wir ergänzende Leistungen wie Mietausbau und Digitalisierung an."
 stepsTitle: "Unsere Bausteine"
 stepsIntro: "Von der ersten Idee bis zur Übergabe begleiten wir Sie durch alle Leistungsphasen – klar strukturiert, transparent und persönlich."
