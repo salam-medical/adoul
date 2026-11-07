@@ -83,6 +83,7 @@
       var t = ev.target;
       if (t.matches && t.matches("[data-lightbox]")) {
         lbImg.src = t.src;
+        lbImg.alt = t.alt;
         lightbox.classList.add("open");
         lightbox.setAttribute("aria-hidden", "false");
         document.body.style.overflow = "hidden";

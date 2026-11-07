@@ -23,8 +23,14 @@
   <h2 class="reveal">{{ i18n "gallery" }}</h2>
   <div class="gallery-grid">
     {{ range $i, $img := . }}
+    {{ $src := $img }}
+    {{ $alt := "" }}
+    {{ if reflect.IsMap $img }}
+      {{ $src = $img.src }}
+      {{ $alt = $img.alt }}
+    {{ end }}
     <figure class="gallery-item reveal" style="transition-delay:{{ mul $i 80 }}ms">
-      <img src="{{ $img | relURL }}" alt="{{ $.Title }} – {{ add $i 1 }}" loading="lazy" data-lightbox>
+      <img src="{{ $src | relURL }}" alt="{{ or $alt (printf "%s – %d" $.Title (add $i 1)) }}" loading="lazy" data-lightbox>
     </figure>
     {{ end }}
   </div>
@@ -34,13 +40,15 @@
   <div class="gallery-grid plans">
     {{ range $i, $p := . }}
     {{ $src := $p }}
+    {{ $alt := "" }}
     {{ $caption := "" }}
     {{ if reflect.IsMap $p }}
       {{ $src = $p.src }}
+      {{ $alt = $p.alt }}
       {{ $caption = $p.caption }}
     {{ end }}
     <figure class="gallery-item reveal" style="transition-delay:{{ mul $i 80 }}ms">
-      <img src="{{ $src | relURL }}" alt="{{ $.Title }} – {{ or $caption (printf "Plan %d" (add $i 1)) }}" loading="lazy" data-lightbox>
+      <img src="{{ $src | relURL }}" alt="{{ or $alt $caption (printf "%s – Plan %d" $.Title (add $i 1)) }}" loading="lazy" data-lightbox>
       {{ with $caption }}<figcaption>{{ . }}</figcaption>{{ end }}
     </figure>
     {{ end }}
