@@ -48,7 +48,8 @@
 {{- if .IsHome }}
 {{- $schema := dict
   "@context" "https://schema.org"
-  "@type" "ProfessionalService"
+  "@type" "LocalBusiness"
+  "additionalType" "http://www.productontology.org/id/Architecture_firm"
   "@id" (printf "%s#business" site.Home.Permalink)
   "name" site.Params.firm
   "legalName" site.Params.legalName
