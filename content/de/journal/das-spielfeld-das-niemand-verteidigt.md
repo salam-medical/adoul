@@ -32,5 +32,3 @@ Für ein etabliertes Büro ist das ärgerlich. Für ein junges Büro ohne Refere
 Deshalb reicht es nicht, die Losvergabe zu verteidigen. Bevor wir überhaupt über Vergabeverfahren sprechen können, muss die Architektenkammer eine Etage tiefer hinschauen: Wie kommen junge Büros heute an die ersten Referenzprojekte, die jede spätere Vergabe voraussetzt? Und warum gilt die Zurückhaltung, die uns das Berufsrecht auferlegt, nicht auch für jene, die mit unserem Titel unter ihrem Namen bauen?
 
 Erst wenn diese Fragen beantwortet sind, lohnt es sich, für den Erhalt der Losvergabe zu kämpfen – sonst verteidigen wir ein Spielfeld, auf das die nächste Generation von Architekturbüros nie hinaufkommt.
-
-*Wir schreiben aus der Perspektive eines jungen Architekturbüros, das genau dort beginnt, wo der Beruf wirklich beginnt: im Alltag der ersten Projekte, der kleinen Sanierungen und der großen Fragen nach Qualität, Sicherheit und Zukunft.*

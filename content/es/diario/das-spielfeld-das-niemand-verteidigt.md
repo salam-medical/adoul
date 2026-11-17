@@ -32,5 +32,3 @@ Para un despacho consolidado, esto es molesto. Para un despacho joven sin refere
 Por eso no basta con defender la adjudicación. Antes incluso de hablar de procedimientos concursales, la Cámara de Arquitectos debe mirar un piso más abajo: ¿cómo consiguen los despachos jóvenes sus primeros proyectos de referencia hoy, los proyectos que exige cualquier adjudicación posterior? Y ¿por qué la prudencia que nos impone el código profesional no se aplica también a quienes construyen usando nuestro título bajo su nombre?
 
 Solo cuando estas preguntas tienen respuesta tiene sentido luchar por mantener la adjudicación; si no, estamos defendiendo un campo que la siguiente generación de despachos de arquitectura jamás va a alcanzar.
-
-*Lo escribimos desde la perspectiva de un despacho joven que empieza exactamente allí donde la profesión realmente comienza: en el trabajo cotidiano de los primeros proyectos, las pequeñas reformas y las grandes preguntas sobre calidad, seguridad y futuro.*

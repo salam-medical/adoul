@@ -32,5 +32,3 @@ For an established office, this is annoying. For a young office without referenc
 That is why it is not enough to defend procurement procedures. Before we even discuss tendering systems, the Chamber of Architects must look one floor lower: how do young offices get their first reference projects today, the projects that every later procurement depends on? And why does the restraint imposed on us by professional law not also apply to those who build under our title?
 
 Only once these questions are answered does it make sense to fight to preserve procurement — otherwise we are defending a field that the next generation of architecture offices will never reach.
-
-*We are writing from the perspective of a young architecture office that begins exactly where the profession actually begins: in the everyday reality of first projects, small renovations and the big questions of quality, security and the future.*
